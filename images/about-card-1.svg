@@ -1,0 +1,33 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#102033"/>
+  <rect width="1200" height="800" fill="url(#paint0_radial_1)"/>
+  <g opacity="0.18" stroke="#8FB9E3">
+    <path d="M72 96H1128"/>
+    <path d="M72 176H1128"/>
+    <path d="M72 256H1128"/>
+    <path d="M72 336H1128"/>
+    <path d="M72 416H1128"/>
+    <path d="M72 496H1128"/>
+    <path d="M72 576H1128"/>
+    <path d="M72 656H1128"/>
+    <path d="M144 48V752"/>
+    <path d="M264 48V752"/>
+    <path d="M384 48V752"/>
+    <path d="M504 48V752"/>
+    <path d="M624 48V752"/>
+    <path d="M744 48V752"/>
+    <path d="M864 48V752"/>
+    <path d="M984 48V752"/>
+  </g>
+  <g opacity="0.9">
+    <circle cx="906" cy="266" r="146" stroke="#2B6CB0" stroke-width="2"/>
+    <circle cx="906" cy="266" r="106" stroke="#169C7D" stroke-width="2"/>
+    <path d="M792 392C856 318 944 294 1044 302" stroke="#F26A21" stroke-width="3"/>
+  </g>
+  <defs>
+    <radialGradient id="paint0_radial_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1026 132) rotate(132.744) scale(623.233 582.602)">
+      <stop stop-color="#214A72"/>
+      <stop offset="1" stop-color="#102033" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
