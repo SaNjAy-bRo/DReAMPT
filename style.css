@@ -274,6 +274,11 @@ body.menu-open {
   display: none;
 }
 
+.mobile-accordion[open] .dropdown-arrow {
+  transform: rotate(45deg);
+}
+
+
 .mobile-submenu {
   display: grid;
   gap: 0.5rem;
