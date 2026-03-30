@@ -1275,6 +1275,8 @@ body.menu-open {
   .header-shell {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .process-line {
@@ -1307,8 +1309,9 @@ body.menu-open {
   }
 
   .mobile-demo-btn {
-    padding: 0.72rem 0.95rem;
-    font-size: 0.82rem;
+    padding: 0.62rem 0.85rem;
+    font-size: 0.78rem;
+    font-weight: 500;
   }
 
   .cta-panel {
