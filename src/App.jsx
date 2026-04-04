@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import CustomersMarquee from './components/CustomersMarquee';
 import AboutSnapshot from './components/AboutSnapshot';
 import TrustStrip from './components/TrustStrip';
+import VideoOverview from './components/VideoOverview';
 import Benefits from './components/Benefits';
 import Products from './components/Products';
 import ServicesOverview from './components/ServicesOverview';
@@ -26,6 +27,7 @@ const App = () => {
         <CustomersMarquee />
         <AboutSnapshot />
         <TrustStrip />
+        <VideoOverview />
         <Benefits />
         <Products />
         <ServicesOverview />

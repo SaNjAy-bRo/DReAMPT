@@ -6,8 +6,8 @@ const EngineeringServices = () => {
     <section id="services" className="section-space section-dark">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Reveal className="max-w-full">
-          <p className="section-kicker text-white/70">Engineering Capabilities</p>
-          <h2 className="section-title text-white">End-to-End Engineering Services</h2>
+          <p className="section-kicker text-white/70">Core Competencies</p>
+          <h2 className="section-title text-white">Comprehensive Operational Capabilities</h2>
         </Reveal>
         <div className="service-list mt-12">
           <Reveal className="service-row">

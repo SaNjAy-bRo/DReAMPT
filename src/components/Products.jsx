@@ -71,6 +71,20 @@ const Products = () => {
             </div>
             <a href="#contact" className="text-link">View Product</a>
           </Reveal>
+          <Reveal className="product-card">
+            <div className="product-media">
+              <img src="/images/products/altair-inspire-form.png" alt="Altair Inspire Form product visual" className="product-media-img" />
+              <h3>Altair Inspire Form</h3>
+            </div>
+            <a href="#contact" className="text-link">View Product</a>
+          </Reveal>
+          <Reveal className="product-card">
+            <div className="product-media">
+              <img src="/images/products/altair-inspire-mold.png" alt="Altair Inspire Mold product visual" className="product-media-img" />
+              <h3>Altair Inspire Mold</h3>
+            </div>
+            <a href="#contact" className="text-link">View Product</a>
+          </Reveal>
         </div>
       </div>
     </section>

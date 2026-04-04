@@ -56,7 +56,7 @@ const Header = () => {
             </p>
           </div>
           <div className="flex items-center gap-2">
-            <a href="#" className="social-link" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/dreampt-mecha-system-pvt-ltd/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
               <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4 fill-current">
                 <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A2 2 0 1 0 5.3 7a2 2 0 0 0-.05-4ZM20.44 12.48c0-3.45-1.84-5.05-4.3-5.05a3.74 3.74 0 0 0-3.38 1.86V8.5H9.38c.04.52 0 11.5 0 11.5h3.38v-6.42c0-.34.03-.68.13-.92.27-.68.9-1.39 1.96-1.39 1.38 0 1.93 1.05 1.93 2.59V20h3.38v-7.52Z" />
               </svg>
@@ -103,6 +103,8 @@ const Header = () => {
                 <a href="#products" role="menuitem">Cimatron CAD</a>
                 <a href="#products" role="menuitem">Cimatron CAD-AI</a>
                 <a href="#products" role="menuitem">Cimatron DieQuote</a>
+                <a href="#products" role="menuitem">Altair Inspire Form</a>
+                <a href="#products" role="menuitem">Altair Inspire Mold</a>
               </div>
             </div>
 
@@ -161,6 +163,8 @@ const Header = () => {
                 <a href="#products">Cimatron CAD</a>
                 <a href="#products">Cimatron CAD-AI</a>
                 <a href="#products">Cimatron DieQuote</a>
+                <a href="#products">Altair Inspire Form</a>
+                <a href="#products">Altair Inspire Mold</a>
               </div>
             </details>
 
