@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DReAMPT Mecha System Pvt. Ltd. | Authorised Reseller of Cimatron</title>
+    <meta
+      name="description"
+      content="DReAMPT Mecha System Pvt. Ltd. is an Authorised Reseller of Cimatron, delivering advanced engineering solutions across design, validation, manufacturing, automation, and testing."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              heading: ["Poppins", "sans-serif"],
+              body: ["Noto Sans", "sans-serif"],
+            },
+            colors: {
+              brand: {
+                ink: "#101827",
+                navy: "#142234",
+                slate: "#4b5b72",
+                line: "#d7e0ea",
+                mist: "#f4f7fb",
+                orange: "#f26a21",
+                green: "#169c7d",
+                blue: "#2b6cb0",
+              },
+            },
+            boxShadow: {
+              soft: "0 20px 60px rgba(16, 24, 39, 0.08)",
+              panel: "0 20px 50px rgba(20, 34, 52, 0.12)",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-white font-body text-brand-slate antialiased selection:bg-brand-orange/15">
+    <div class="page-shell relative overflow-hidden">
+      <div class="site-grid"></div>
+
+      <!-- Header -->
+      <header id="site-header" class="fixed inset-x-0 top-0 z-50 transition-all duration-300">
+        <div class="topbar-shell">
+          <div class="flex items-center justify-between gap-4 px-6 py-2 lg:px-8">
+            <div class="flex items-center gap-3">
+              <img
+                src="images/Cimatron_Portrait_logo_black.png"
+                alt="Cimatron logo"
+                class="h-7 w-auto"
+              />
+              <p class="truncate text-xs font-semibold uppercase tracking-[0.2em] text-slate-700">
+                Authorised Reseller
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current">
+                  <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A2 2 0 1 0 5.3 7a2 2 0 0 0-.05-4ZM20.44 12.48c0-3.45-1.84-5.05-4.3-5.05a3.74 3.74 0 0 0-3.38 1.86V8.5H9.38c.04.52 0 11.5 0 11.5h3.38v-6.42c0-.34.03-.68.13-.92.27-.68.9-1.39 1.96-1.39 1.38 0 1.93 1.05 1.93 2.59V20h3.38v-7.52Z"/>
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current">
+                  <path d="M13.5 21v-8.1h2.73l.41-3.16H13.5V7.72c0-.91.25-1.53 1.56-1.53h1.67V3.37c-.29-.04-1.27-.12-2.41-.12-2.39 0-4.02 1.46-4.02 4.14v2.34H7.59v3.16h2.71V21h3.2Z"/>
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current">
+                  <path d="M7.75 3h8.5A4.75 4.75 0 0 1 21 7.75v8.5A4.75 4.75 0 0 1 16.25 21h-8.5A4.75 4.75 0 0 1 3 16.25v-8.5A4.75 4.75 0 0 1 7.75 3Zm0 1.5A3.25 3.25 0 0 0 4.5 7.75v8.5a3.25 3.25 0 0 0 3.25 3.25h8.5a3.25 3.25 0 0 0 3.25-3.25v-8.5A3.25 3.25 0 0 0 16.25 4.5h-8.5Zm8.88 1.13a1.12 1.12 0 1 1 0 2.24 1.12 1.12 0 0 1 0-2.24ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full">
+          <div
+            class="header-shell flex items-center justify-between border-b border-slate-200/80 bg-white px-6 py-4 transition-all duration-300 lg:px-8"
+          >
+            <a href="#home" class="flex items-center gap-3" aria-label="DReAMPT Mecha System Pvt. Ltd. home">
+              <img
+                src="images/DReAMPT_darklogo.png"
+                alt="DReAMPT Mecha System Pvt. Ltd. logo"
+                class="h-11 w-auto sm:h-12"
+              />
+            </a>
+
+            <nav class="hidden items-center gap-1 lg:flex" aria-label="Primary navigation">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#about">About</a>
+
+              <div class="nav-dropdown group relative" data-dropdown>
+                <button
+                  class="nav-link flex items-center gap-2"
+                  type="button"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                >
+                  Products
+                  <span class="dropdown-arrow">+</span>
+                </button>
+                <div class="dropdown-panel" role="menu">
+                  <a href="#products" role="menuitem">Mold Design</a>
+                  <a href="#products" role="menuitem">Die Design</a>
+                  <a href="#products" role="menuitem">Electrodes Design</a>
+                  <a href="#products" role="menuitem">NC Programming</a>
+                  <a href="#products" role="menuitem">Cimatron Viewer</a>
+                  <a href="#products" role="menuitem">Cimatron CAD</a>
+                  <a href="#products" role="menuitem">Cimatron CAD-AI</a>
+                  <a href="#products" role="menuitem">Cimatron DieQuote</a>
+                </div>
+              </div>
+
+              <a class="nav-link" href="#services">Services</a>
+
+              <div class="nav-dropdown group relative" data-dropdown>
+                <button
+                  class="nav-link flex items-center gap-2"
+                  type="button"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                >
+                  Resources
+                  <span class="dropdown-arrow">+</span>
+                </button>
+                <div class="dropdown-panel" role="menu">
+                  <a href="#resources" role="menuitem">Blog</a>
+                  <a href="#resources" role="menuitem">News &amp; Events</a>
+                  <a href="#resources" role="menuitem">Case Study</a>
+                </div>
+              </div>
+
+              <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+
+            <div class="hidden items-center gap-3 lg:flex">
+              <a href="#contact" class="btn-primary">Request a Demo</a>
+            </div>
+
+            <div class="flex items-center gap-3 lg:hidden">
+
+              <button
+                id="mobile-menu-toggle"
+                class="mobile-toggle lg:hidden"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+                aria-label="Toggle navigation menu"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+
+          <div id="mobile-menu" class="mobile-menu border-b border-slate-200/80 bg-white p-5 shadow-soft lg:hidden" hidden>
+            <div class="space-y-2">
+              <a class="mobile-link" href="#home">Home</a>
+              <a class="mobile-link" href="#about">About</a>
+
+              <details class="mobile-accordion">
+                <summary>
+                  Products
+                  <span class="dropdown-arrow">+</span>
+                </summary>
+                <div class="mobile-submenu">
+                  <a href="#products">Mold Design</a>
+                  <a href="#products">Die Design</a>
+                  <a href="#products">Electrodes Design</a>
+                  <a href="#products">NC Programming</a>
+                  <a href="#products">Cimatron Viewer</a>
+                  <a href="#products">Cimatron CAD</a>
+                  <a href="#products">Cimatron CAD-AI</a>
+                  <a href="#products">Cimatron DieQuote</a>
+                </div>
+              </details>
+
+              <a class="mobile-link" href="#services">Services</a>
+
+              <details class="mobile-accordion">
+                <summary>
+                  Resources
+                  <span class="dropdown-arrow">+</span>
+                </summary>
+                <div class="mobile-submenu">
+                  <a href="#resources">Blog</a>
+                  <a href="#resources">News &amp; Events</a>
+                  <a href="#resources">Case Study</a>
+                </div>
+              </details>
+
+              <a class="mobile-link" href="#contact">Contact</a>
+            </div>
+
+            <div class="mt-5">
+              <a href="#contact" class="btn-primary w-full justify-center text-center">Request a Demo</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main id="home">
+        <!-- Hero Section -->
+        <section class="hero-section relative pt-44 sm:pt-48">
+          <div class="hero-inner mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="hero-copy reveal-up mx-auto max-w-5xl py-16 text-center sm:py-20">
+              <div class="hero-intro-stack">
+                <div class="hero-reseller-mark">
+                  <img
+                    src="images/Cimatron_Landscape_logo_white.png"
+                    alt="Cimatron logo"
+                    class="h-8 w-auto sm:h-9"
+                  />
+                  <p class="hero-reseller-text">Authorised Reseller of Cimatron</p>
+                </div>
+
+                <p class="hero-eyebrow">A Unified Approach to Product Development &amp; Engineering</p>
+              </div>
+
+              <h1 class="mx-auto mt-8 max-w-4xl font-heading text-4xl font-bold leading-tight text-white sm:text-5xl xl:text-6xl">
+                Built on Experience. Delivered with Precision.
+              </h1>
+
+              <p class="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300 sm:text-xl">
+                We brings together 105+ years of collective engineering experience to deliver end-to-end
+                solutions from concept to realization.
+              </p>
+
+              <div class="hero-highlights mt-8 grid gap-4 sm:grid-cols-2">
+                <div class="trust-chip">
+                  <span class="trust-chip-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current">
+                      <path d="M9.55 16.4 5.7 12.55l1.4-1.4 2.45 2.45 7.35-7.35 1.4 1.4-8.75 8.75Z"/>
+                    </svg>
+                  </span>
+                  <div class="trust-chip-copy">
+                    <p class="trust-chip-title">One-stop engineering</p>
+                    <p class="trust-chip-text">Concept to design to manufacturing</p>
+                  </div>
+                </div>
+                <div class="trust-chip">
+                  <span class="trust-chip-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current">
+                      <path d="M9.55 16.4 5.7 12.55l1.4-1.4 2.45 2.45 7.35-7.35 1.4 1.4-8.75 8.75Z"/>
+                    </svg>
+                  </span>
+                  <div class="trust-chip-copy">
+                    <p class="trust-chip-title">Strategic partnerships</p>
+                    <p class="trust-chip-text">Backed by trusted industry partners</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <a href="#contact" class="btn-primary hero-btn justify-center">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current">
+                    <path d="M4 5.75A1.75 1.75 0 0 1 5.75 4h12.5A1.75 1.75 0 0 1 20 5.75v12.5A1.75 1.75 0 0 1 18.25 20H5.75A1.75 1.75 0 0 1 4 18.25V5.75Zm2.75-.25a.75.75 0 0 0-.75.75v11.5c0 .414.336.75.75.75h10.5a.75.75 0 0 0 .75-.75V6.25a.75.75 0 0 0-.75-.75H6.75ZM8 9.25A.75.75 0 0 1 8.75 8.5h6.5a.75.75 0 0 1 0 1.5h-6.5A.75.75 0 0 1 8 9.25Zm0 5.5A.75.75 0 0 1 8.75 14h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Z"/>
+                  </svg>
+                  Request a Demo
+                </a>
+                <a href="#products" class="btn-secondary on-dark hero-btn justify-center">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current">
+                    <path d="M3.75 5A1.75 1.75 0 0 0 2 6.75v10.5C2 18.216 2.784 19 3.75 19h16.5A1.75 1.75 0 0 0 22 17.25V6.75A1.75 1.75 0 0 0 20.25 5H3.75Zm0 1.5h16.5a.25.25 0 0 1 .25.25v10.5a.25.25 0 0 1-.25.25H3.75a.25.25 0 0 1-.25-.25V6.75a.25.25 0 0 1 .25-.25Zm3 2.25A.75.75 0 0 1 7.5 8h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Zm0 3.5a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5h-9a.75.75 0 0 1-.75-.75Zm0 3.5a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1-.75-.75Z"/>
+                  </svg>
+                  Explore Products
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Customers -->
+        <section class="customers-section relative">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="customers-panel reveal-up">
+              <div class="customers-heading">
+                <p class="section-kicker">Our Customers</p>
+              </div>
+
+              <div class="customers-marquee">
+                <div class="customers-track">
+                  <!-- Original set -->
+                  <div class="customer-logo-tile"><img src="images/clients/logo 1.jpg" alt="Client 1 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 2.jpg" alt="Client 2 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 3.jpg" alt="Client 3 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 4.jpg" alt="Client 4 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 5.jpg" alt="Client 5 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 6.jpg" alt="Client 6 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 7.jpg" alt="Client 7 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 8.jpg" alt="Client 8 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 9.jpg" alt="Client 9 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 10.jpg" alt="Client 10 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 11.jpg" alt="Client 11 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 12.jpg" alt="Client 12 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 13.jpg" alt="Client 13 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 14.jpg" alt="Client 14 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 15.jpg" alt="Client 15 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 16.jpg" alt="Client 16 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 17.jpg" alt="Client 17 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 18.jpg" alt="Client 18 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 19.jpg" alt="Client 19 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 20.jpg" alt="Client 20 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 21.jpg" alt="Client 21 logo" /></div>
+                  <div class="customer-logo-tile"><img src="images/clients/logo 22.jpg" alt="Client 22 logo" /></div>
+                  <!-- Duplicate set for seamless infinite loop -->
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 1.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 2.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 3.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 4.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 5.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 6.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 7.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 8.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 9.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 10.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 11.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 12.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 13.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 14.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 15.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 16.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 17.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 18.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 19.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 20.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 21.jpg" alt="" /></div>
+                  <div class="customer-logo-tile" aria-hidden="true"><img src="images/clients/logo 22.jpg" alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Snapshot -->
+        <section id="about" class="section-space relative">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="reveal-up about-header max-w-5xl">
+              <p class="section-kicker">About DReAMPT Mecha System Pvt. Ltd.</p>
+              <h2 class="section-title">A Unified Approach to Product Development &amp; Engineering</h2>
+              <p class="section-copy">
+                DReAMPT Mecha System Pvt. Ltd. offers comprehensive engineering support from concept to final
+                implementation, with expertise in design, analysis, manufacturing, automation, and testing.
+              </p>
+            </div>
+
+            <div class="about-content reveal-up mt-12">
+              <div class="about-card-grid">
+                <article class="about-feature-card about-feature-card-image">
+                  <img src="images/about-card-1.svg" alt="" class="about-card-bg" />
+                  <h3>Strategic partnerships with industry experts</h3>
+                </article>
+
+                <article class="about-feature-card about-feature-card-image">
+                  <img src="images/about-card-2.svg" alt="" class="about-card-bg" />
+                  <h3>First-time-right engineering approach</h3>
+                </article>
+
+                <article class="about-feature-card about-feature-card-image">
+                  <img src="images/about-card-3.svg" alt="" class="about-card-bg" />
+                  <h3>Trusted support across engineering workflows</h3>
+                </article>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Trust Strip -->
+        <section class="relative z-10 mt-8">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="trust-strip reveal-up grid gap-4 rounded-[28px] border border-brand-line/80 bg-white/95 p-6 shadow-soft md:grid-cols-2 xl:grid-cols-4">
+              <article class="trust-stat">
+                <p class="trust-value" data-counter="105">105+</p>
+                <p class="trust-label">Years of Combined Engineering Experience</p>
+              </article>
+              <article class="trust-stat">
+                <p class="trust-value">100%</p>
+                <p class="trust-label">Indian MSME</p>
+              </article>
+              <article class="trust-stat">
+                <p class="trust-value">End-to-End</p>
+                <p class="trust-label">Engineering Solutions</p>
+              </article>
+              <article class="trust-stat">
+                <p class="trust-value">Strategic</p>
+                <p class="trust-label">Industry Partnerships</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Why Cimatron -->
+        <section class="section-space">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="reveal-up max-w-3xl">
+              <p class="section-kicker">Platform Value</p>
+              <h2 class="section-title">Why Cimatron</h2>
+            </div>
+            <div class="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+              <article class="benefit-card reveal-up">
+                <div class="benefit-icon">01</div>
+                <h3>Faster time-to-market</h3>
+                <p>Shorten development cycles with integrated tooling workflows and fewer handoff delays.</p>
+              </article>
+              <article class="benefit-card reveal-up">
+                <div class="benefit-icon">02</div>
+                <h3>First-time-right tooling workflows</h3>
+                <p>Improve tooling confidence with more controlled design, validation, and manufacturing alignment.</p>
+              </article>
+              <article class="benefit-card reveal-up">
+                <div class="benefit-icon">03</div>
+                <h3>Better automation and productivity</h3>
+                <p>Streamline repeatable operations and reduce manual effort across engineering tasks.</p>
+              </article>
+              <article class="benefit-card reveal-up">
+                <div class="benefit-icon">04</div>
+                <h3>Improved collaboration and data flow</h3>
+                <p>Support cross-functional teams with clearer data access and workflow continuity.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Products -->
+        <section id="products" class="section-space products-section-dark">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="reveal-up max-w-3xl">
+              <p class="section-kicker text-white/70">Authorised Reseller Portfolio</p>
+              <h2 class="section-title text-white">Cimatron Products</h2>
+              <p class="section-copy text-slate-300">
+                Explore integrated CAD/CAM solutions for tooling, design, manufacturing, CNC, EDM, and engineering
+                collaboration.
+              </p>
+            </div>
+
+            <div class="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+              <article class="product-card reveal-up">
+                <div class="product-media">
+                  <img src="images/products/mold-design.jpg" alt="Mold Design product visual" class="product-media-img" />
+                  <h3>Mold Design</h3>
+                </div>
+                <a href="#contact" class="text-link">View Product</a>
+              </article>
+              <article class="product-card reveal-up">
+                <div class="product-media">
+                  <img src="images/products/die-design.jpg" alt="Die Design product visual" class="product-media-img" />
+                  <h3>Die Design</h3>
+                </div>
+                <a href="#contact" class="text-link">View Product</a>
+              </article>
+              <article class="product-card reveal-up">
+                <div class="product-media">
+                  <img src="images/products/electrodes-design.jpg" alt="Electrodes Design product visual" class="product-media-img" />
+                  <h3>Electrodes Design</h3>
+                </div>
+                <a href="#contact" class="text-link">View Product</a>
+              </article>
+              <article class="product-card reveal-up">
+                <div class="product-media">
+                  <img src="images/products/nc-programming.jpg" alt="NC Programming product visual" class="product-media-img" />
+                  <h3>NC Programming</h3>
+                </div>
+                <a href="#contact" class="text-link">View Product</a>
+              </article>
+              <article class="product-card reveal-up">
+                <div class="product-media">
+                  <img src="images/products/cimatron-viewer.jpg" alt="Cimatron Viewer product visual" class="product-media-img" />
+                  <h3>Cimatron Viewer</h3>
+                </div>
+                <a href="#contact" class="text-link">View Product</a>
+              </article>
+              <article class="product-card reveal-up">
+                <div class="product-media">
+                  <img src="images/products/cimatron-cad.png" alt="Cimatron CAD product visual" class="product-media-img" />
+                  <h3>Cimatron CAD</h3>
+                </div>
+                <a href="#contact" class="text-link">View Product</a>
+              </article>
+              <article class="product-card reveal-up">
+                <div class="product-media">
+                  <img src="images/products/cimatron-cad-ai.jpg" alt="Cimatron CAD-AI product visual" class="product-media-img" />
+                  <h3>Cimatron CAD-AI</h3>
+                </div>
+                <a href="#contact" class="text-link">View Product</a>
+              </article>
+              <article class="product-card reveal-up">
+                <div class="product-media">
+                  <img src="images/products/cimatron-diequote.jpg" alt="Cimatron DieQuote product visual" class="product-media-img" />
+                  <h3>Cimatron DieQuote</h3>
+                </div>
+                <a href="#contact" class="text-link">View Product</a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Our Services -->
+        <section class="section-space services-overview-section">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="reveal-up max-w-4xl">
+              <p class="section-kicker">Our Services</p>
+              <h2 class="section-title">Integrated Engineering Support</h2>
+            </div>
+
+            <div class="services-overview-grid reveal-up mt-12">
+              <article class="services-overview-card">
+                <h3>Concept Design</h3>
+                <p>Geometry Creation / Modelling</p>
+              </article>
+              <article class="services-overview-card">
+                <h3>Finite Element Analysis</h3>
+                <p>FEA &amp; Computational fluid dynamics (CFD)</p>
+              </article>
+              <article class="services-overview-card">
+                <h3>Layout &amp; Manufacturing Drawings</h3>
+                <p>Detailed engineering documentation for production readiness</p>
+              </article>
+              <article class="services-overview-card">
+                <h3>Manufacturing</h3>
+                <p>Prototypes &amp; Mass production</p>
+              </article>
+              <article class="services-overview-card">
+                <h3>Pick &amp; Place and Autonomous Robots</h3>
+                <p>Automation-focused systems for modern industrial workflows</p>
+              </article>
+              <article class="services-overview-card">
+                <h3>Material Handling Equipment</h3>
+                <p>Design and supply</p>
+              </article>
+            </div>
+
+            <div class="reveal-up mt-8">
+              <a href="#services" class="text-link">Learn More</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Engineering Services -->
+        <section id="services" class="section-space section-dark">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="reveal-up max-w-full">
+              <p class="section-kicker text-white/70">Engineering Capabilities</p>
+              <h2 class="section-title text-white">End-to-End Engineering Services</h2>
+            </div>
+            <div class="service-list mt-12">
+              <article class="service-row reveal-up">
+                <span>01</span>
+                <h3>Design Engineering</h3>
+                <p>Concept creation, 3D modeling, detailing, and development support</p>
+              </article>
+              <article class="service-row reveal-up">
+                <span>02</span>
+                <h3>Design Validation</h3>
+                <p>FEA, CFD, simulation, and performance evaluation</p>
+              </article>
+              <article class="service-row reveal-up">
+                <span>03</span>
+                <h3>Manufacturing</h3>
+                <p>Precision components, fabrication, and production support</p>
+              </article>
+              <article class="service-row reveal-up">
+                <span>04</span>
+                <h3>Automation</h3>
+                <p>Process control, robotics, and factory automation solutions</p>
+              </article>
+              <article class="service-row reveal-up">
+                <span>05</span>
+                <h3>Testing</h3>
+                <p>Physical validation and standards-based testing support</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Process -->
+        <section class="section-space">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="reveal-up max-w-3xl">
+              <p class="section-kicker">Delivery Framework</p>
+              <h2 class="section-title">From Design to Delivery</h2>
+            </div>
+            <div class="process-wrap reveal-up mt-12">
+              <div class="process-line"></div>
+              <article class="process-step">
+                <span>01</span>
+                <h3>Consultation</h3>
+                <p>Understand process requirements, design scope, and project goals.</p>
+              </article>
+              <article class="process-step">
+                <span>02</span>
+                <h3>Product Selection</h3>
+                <p>Match the right Cimatron solution to tooling and manufacturing needs.</p>
+              </article>
+              <article class="process-step">
+                <span>03</span>
+                <h3>Engineering Support</h3>
+                <p>Provide workflow guidance, validation input, and practical implementation planning.</p>
+              </article>
+              <article class="process-step">
+                <span>04</span>
+                <h3>Implementation</h3>
+                <p>Enable deployment with structured onboarding and solution alignment.</p>
+              </article>
+              <article class="process-step">
+                <span>05</span>
+                <h3>Ongoing Assistance</h3>
+                <p>Maintain continuity with responsive support and evolving engineering needs.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Industries -->
+        <section class="section-space section-tint">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="reveal-up max-w-3xl">
+              <p class="section-kicker">Domain Experience</p>
+              <h2 class="section-title">Industries We Serve</h2>
+            </div>
+            <div class="industry-pill-wrap reveal-up mt-12">
+              <a href="#contact" class="industry-pill">Aerospace &amp; Defence</a>
+              <a href="#contact" class="industry-pill">Automotive</a>
+              <a href="#contact" class="industry-pill">General Engineering</a>
+              <a href="#contact" class="industry-pill">Communication</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="cta-section-compact">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="cta-panel reveal-up">
+              <div class="cta-orbit cta-orbit-one"></div>
+              <div class="cta-orbit cta-orbit-two"></div>
+              <div class="cta-grid relative z-10">
+                <div class="max-w-3xl">
+                  <p class="section-kicker text-white/70">Next Step</p>
+                  <h2 class="section-title text-white">Looking for the Right Cimatron Solution?</h2>
+                  <p class="mt-5 max-w-2xl text-lg leading-8 text-slate-300">
+                    Talk to DReAMPT Mecha System Pvt. Ltd. for product guidance, engineering support, and
+                    implementation assistance.
+                  </p>
+                  <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+                    <a href="#contact" class="btn-primary justify-center">Request a Demo</a>
+                    <a href="#products" class="btn-secondary on-dark justify-center">Explore Products</a>
+                  </div>
+                </div>
+
+                <div class="cta-side-panel">
+                  <div class="cta-side-item">
+                    <span>01</span>
+                    <p>Product guidance aligned to tooling and manufacturing needs</p>
+                  </div>
+                  <div class="cta-side-item">
+                    <span>02</span>
+                    <p>Implementation-focused support from evaluation to rollout</p>
+                  </div>
+                  <div class="cta-side-item">
+                    <span>03</span>
+                    <p>Authorised access to Cimatron expertise through DReAMPT</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer id="contact" class="footer-shell">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="grid gap-10 border-t border-white/10 py-14 lg:grid-cols-[1.15fr_0.85fr_0.85fr_0.85fr_1fr]">
+            <div>
+              <img src="images/DReAMPT_lightlogo.png" alt="DReAMPT Mecha System Pvt. Ltd. logo" class="h-14 w-auto" />
+              <p class="mt-5 max-w-sm text-sm leading-7 text-slate-300">
+                DReAMPT Mecha System Pvt. Ltd. is an Authorised Reseller of Cimatron, delivering engineering and
+                industrial technology support with a structured, practical approach.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="footer-title">Quick Links</h3>
+              <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#services">Services</a>
+                <a href="#resources">Resources</a>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="footer-title">Products</h3>
+              <div class="footer-links">
+                <a href="#products">Mold Design</a>
+                <a href="#products">Die Design</a>
+                <a href="#products">NC Programming</a>
+                <a href="#products">Cimatron CAD</a>
+                <a href="#products">Cimatron CAD-AI</a>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="footer-title">Services</h3>
+              <div class="footer-links">
+                <a href="#services">Design Engineering</a>
+                <a href="#services">Design Validation</a>
+                <a href="#services">Manufacturing</a>
+                <a href="#services">Automation</a>
+                <a href="#services">Testing</a>
+              </div>
+            </div>
+
+            <div id="resources">
+              <h3 class="footer-title">Contact</h3>
+              <div class="footer-links">
+                <a href="mailto:info@dreampt.example">info@dreampt.example</a>
+                <a href="tel:+910000000000">+91 00000 00000</a>
+                <p>No. 1, 3rd Main, 2nd Stage, Yeshwantapura Industrial Suburb, Goraguntepalya, J.B. Kaval, Bengaluru – 560022, Karnataka, India</p>
+                <a href="#contact">Request a Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="border-t border-white/10 py-6 text-sm text-slate-400">
+            Copyright © 2026 DReAMPT Mecha System Pvt. Ltd. All rights reserved.
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

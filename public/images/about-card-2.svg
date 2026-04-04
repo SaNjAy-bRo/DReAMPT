@@ -1,0 +1,26 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#112339"/>
+  <rect width="1200" height="800" fill="url(#paint0_radial_2)"/>
+  <g opacity="0.16" stroke="#A9C3DD">
+    <path d="M80 88H1120"/>
+    <path d="M80 168H1120"/>
+    <path d="M80 248H1120"/>
+    <path d="M80 328H1120"/>
+    <path d="M80 408H1120"/>
+    <path d="M80 488H1120"/>
+    <path d="M80 568H1120"/>
+    <path d="M80 648H1120"/>
+  </g>
+  <g opacity="0.95">
+    <path d="M316 536L532 320L654 438L896 190" stroke="#F26A21" stroke-width="5"/>
+    <path d="M842 190H898V246" stroke="#F26A21" stroke-width="5"/>
+    <path d="M268 584H946" stroke="#2B6CB0" stroke-width="2"/>
+    <path d="M268 584V228" stroke="#2B6CB0" stroke-width="2"/>
+  </g>
+  <defs>
+    <radialGradient id="paint0_radial_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1004 102) rotate(135.318) scale(688.097 619.605)">
+      <stop stop-color="#215480"/>
+      <stop offset="1" stop-color="#112339" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
