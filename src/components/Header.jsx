@@ -130,7 +130,7 @@ const Header = () => {
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <a href="#contact" className="btn-primary">Request a Demo</a>
+            <a href="#contact" className="btn-primary">Request a Free Consultation</a>
           </div>
 
           <div className="flex items-center gap-3 lg:hidden">
@@ -183,7 +183,7 @@ const Header = () => {
           </div>
 
           <div className="mt-5">
-            <a href="#contact" className="btn-primary w-full justify-center text-center" onClick={() => setIsMobileMenuOpen(false)}>Request a Demo</a>
+            <a href="#contact" className="btn-primary w-full justify-center text-center" onClick={() => setIsMobileMenuOpen(false)}>Request a Free Consultation</a>
           </div>
         </div>
       </div>

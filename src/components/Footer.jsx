@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <img src="/images/DReAMPT_lightlogo.png" alt="DReAMPT Mecha System Pvt. Ltd. logo" className="h-14 w-auto" />
             <p className="mt-5 max-w-sm text-sm leading-7 text-slate-300">
-              DReAMPT Mecha System Pvt. Ltd. is an Authorised Reseller of Cimatron, delivering engineering and
+              DReAMPT Mecha System Pvt. Ltd. is an Authorised Reseller Cimatron, delivering engineering and
               industrial technology support with a structured, practical approach.
             </p>
             <div className="mt-6 flex items-center gap-3">
@@ -59,7 +59,7 @@ const Footer = () => {
               <a href="mailto:info@dreampt.example">info@dreampt.example</a>
               <a href="tel:+910000000000">+91 00000 00000</a>
               <p>No. 1, 3rd Main, 2nd Stage, Yeshwantapura Industrial Suburb, Goraguntepalya, J.B. Kaval, Bengaluru – 560022, Karnataka, India</p>
-              <a href="#contact">Request a Demo</a>
+              <a href="#contact">Request a Free Consultation</a>
             </div>
           </div>
         </div>

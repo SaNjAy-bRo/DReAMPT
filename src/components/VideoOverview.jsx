@@ -7,10 +7,10 @@ const VideoOverview = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <Reveal className="max-w-2xl">
-            <p className="section-kicker">Manufacturing Excellence</p>
-            <h2 className="section-title">See Our Process in Action</h2>
+            <p className="section-kicker">Integrated CAD/CAM Solutions</p>
+            <h2 className="section-title">Experience Cimatron in Action</h2>
             <p className="section-copy">
-              Discover how DReAMPT Mecha System brings together decades of expertise in design, automation, and manufacturing to deliver high-precision engineering solutions. Watch our operational overview to see the technology and dedication driving our success.
+              Explore how Cimatron's advanced software transforms complex mold and die shop workflows with a Right-First-Time approach. As an Authorised Reseller Cimatron, DReAMPT Mecha System brings you the technology, training, and strategic support to elevate your manufacturing capabilities.
             </p>
             <div className="mt-8 flex items-center gap-4">
                <a href="#contact" className="btn-primary">Connect With Us</a>

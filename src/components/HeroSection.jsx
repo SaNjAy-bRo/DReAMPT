@@ -3,9 +3,9 @@ import Reveal from './Reveal';
 
 const HeroSection = () => {
   return (
-    <section className="hero-section relative pt-44 sm:pt-48">
+    <section className="hero-section relative pt-28 sm:pt-36">
       <div className="hero-inner mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <Reveal className="hero-copy mx-auto max-w-5xl py-16 text-center sm:py-20">
+        <Reveal className="hero-copy mx-auto max-w-5xl py-5 text-center">
           <div className="hero-intro-stack">
             <div className="hero-reseller-mark">
               <img
@@ -13,7 +13,7 @@ const HeroSection = () => {
                 alt="Cimatron logo"
                 className="h-8 w-auto sm:h-9"
               />
-              <p className="hero-reseller-text">Authorised Reseller of Cimatron</p>
+              <p className="hero-reseller-text">Authorised Reseller Cimatron</p>
             </div>
 
             <p className="hero-eyebrow">A Unified Approach to Product Development &amp; Engineering</p>
@@ -58,7 +58,7 @@ const HeroSection = () => {
               <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4 fill-current">
                 <path d="M4 5.75A1.75 1.75 0 0 1 5.75 4h12.5A1.75 1.75 0 0 1 20 5.75v12.5A1.75 1.75 0 0 1 18.25 20H5.75A1.75 1.75 0 0 1 4 18.25V5.75Zm2.75-.25a.75.75 0 0 0-.75.75v11.5c0 .414.336.75.75.75h10.5a.75.75 0 0 0 .75-.75V6.25a.75.75 0 0 0-.75-.75H6.75ZM8 9.25A.75.75 0 0 1 8.75 8.5h6.5a.75.75 0 0 1 0 1.5h-6.5A.75.75 0 0 1 8 9.25Zm0 5.5A.75.75 0 0 1 8.75 14h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Z"/>
               </svg>
-              Request a Demo
+              Request a Free Consultation
             </a>
             <a href="#products" className="btn-secondary on-dark hero-btn justify-center">
               <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4 fill-current">

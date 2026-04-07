@@ -17,7 +17,7 @@ const Benefits = () => {
           </Reveal>
           <Reveal className="benefit-card">
             <div className="benefit-icon">02</div>
-            <h3>First-time-right tooling workflows</h3>
+            <h3>Right-First-Time tooling workflows</h3>
             <p>Improve tooling confidence with more controlled design, validation, and manufacturing alignment.</p>
           </Reveal>
           <Reveal className="benefit-card">

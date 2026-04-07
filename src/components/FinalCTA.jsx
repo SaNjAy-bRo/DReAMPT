@@ -11,13 +11,12 @@ const FinalCTA = () => {
           <div className="cta-grid relative z-10">
             <div className="max-w-3xl">
               <p className="section-kicker text-white/70">Next Step</p>
-              <h2 className="section-title text-white">Looking for the Right Cimatron Solution?</h2>
+              <h2 className="section-title text-white">Looking for the Right CAD/CAM Solutions?</h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-300">
-                Talk to DReAMPT Mecha System Pvt. Ltd. for product guidance, engineering support, and
-                implementation assistance.
+                Partner with DReAMPT for expert engineering guidance and seamless technical support.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                <a href="#contact" className="btn-primary justify-center">Request a Demo</a>
+                <a href="#contact" className="btn-primary justify-center">Request a Free Consultation</a>
                 <a href="#products" className="btn-secondary on-dark justify-center">Explore Products</a>
               </div>
             </div>

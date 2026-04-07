@@ -23,7 +23,7 @@ const AboutSnapshot = () => {
 
             <article className="about-feature-card about-feature-card-image">
               <img src="/images/about-card-2.svg" alt="" className="about-card-bg" />
-              <h3>First-time-right engineering approach</h3>
+              <h3>Right-First-Time engineering approach</h3>
             </article>
 
             <article className="about-feature-card about-feature-card-image">
