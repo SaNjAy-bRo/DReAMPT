@@ -1,0 +1,761 @@
+<!DOCTYPE HTML>
+<html lang="nl" dir="ltr">
+
+<!-- Mirrored from www.cimatron.com/nl/integrating-data-flow-collaboration by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Apr 2026 10:33:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+            <!-- Google Tag Manager --><script nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MKPW8K3');</script><!-- End Google Tag Manager -->
+            <meta charset="utf-8">
+<meta name="google-site-verification" content="Jca52SxqWXCnOEyhiHf_L_BtrDQMitbaMd6saeOToH4" />
+<title>Integratie van gegevensstroom en samenwerking</title>
+<meta name="title" content="Integratie van gegevensstroom en samenwerking">
+<meta name="description" content="Cimatron verbetert de samenwerking en efficiëntie door de silo&#039;s tussen ontwerp en productie te doorbreken, waardoor een naadloze gegevensstroom en communicatie voor geoptimaliseerde productieprocessen mogelijk wordt.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="../scripts/jquery/3.6.1/jquery-3.6.1.min.js" integrity="sha384-i61gTtaoovXtAbKjo903+O55Jkn2+RtzHtvNez+yI49HAASvznhe9sZyjaSHTau9" crossorigin="anonymous" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script>
+<link rel="stylesheet" href="../scripts/bootstrap/5.3.5/css/bootstrap.min.css" integrity="sha256-zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=" crossorigin="anonymous" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ" />
+<script src="../scripts/common-scripts.js" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script>
+<link rel="preload" href="../styles/cimatron-consolidated-2025.css" as="style" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ" />
+<link rel="stylesheet" href="../styles/cimatron-consolidated-2025.css" type="text/css" media="all" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ" />
+<link rel="icon" href="../images/icons/cimatron-favicon.svg" type="image/svg+xml" /><link rel="icon" href="../images/icons/cimatron-favicon.png" />
+<style nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ">header div#header-container{position:fixed;inset-block-start:0;inset-inline:0;width:auto;min-height:120px;background-color:#fff;z-index:1000}main{margin:120px auto 0 auto;min-height:66vh}@media (max-width:992px){header div#header-container{min-height:unset}header div#header-container-responsive{display:flex;position:fixed;inset-block-start:0;inset-inline:0;height:70px;max-height:70px;background-color:#fff;z-index:999}main{margin:70px auto 0 auto}nav#breadcrumbs{margin:70px 0 -70px 0}}div.hero-container{position:relative;max-height:360px;overflow:hidden;display:flex;align-items:center}div.hero-container picture{display:block}div.hero-container img.hero,div.hero-container video.hero{width:100%;height:auto;object-fit:cover}div.hero-container img.hero{aspect-ratio:16/9}@supports not (aspect-ratio:1/1){div.hero-container{height:auto;}div.hero-container::before{content:"";display:block;padding-top:56.25%;}div.hero-container img.hero,div.hero-container video.hero{position:absolute;inset:0}}div.hero-container div.hero-text-container{position:absolute;width:100%;z-index:1}div.hero-container div.hero-text{position:relative;padding:1em;margin:0 80px}@media (max-width:992px){div.hero-container div.hero-text{margin:0 1em;font-size:.6em}}</style>
+<link rel="preload" href="../fonts/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="../fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin />
+<meta name="application-name" content="Cimatron" />
+<meta name="creator" content="Cimatron" />
+<meta name="publisher" content="Cimatron" />
+<meta name="last-modified" content="2025-09-08T06:02:53+00:00" />
+<meta name="theme-color" content="#224356" />
+<meta property="og:url" content="https://www.cimatron.com/nl/integrating-data-flow-collaboration" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Integratie van gegevensstroom en samenwerking" />
+<meta property="og:description" content="Cimatron verbetert de samenwerking en efficiëntie door de silo&#039;s tussen ontwerp en productie te doorbreken, waardoor een naadloze gegevensstroom en communicatie voor geoptimaliseerde productieprocessen mogelijk wordt." />
+<meta property="og:locale" content="nl" />
+<meta property="og:image" content="https://www.cimatron.com/collateral/3/images/960/integrating-data-flow-collaboration-hero.jpg" />
+<link rel="canonical" href="integrating-data-flow-collaboration.html" />
+<link rel="alternate" href="../de/integrating-data-flow-collaboration.html" hreflang="de" />
+<link rel="alternate" href="../en/integrating-data-flow-collaboration.html" hreflang="en" />
+<link rel="alternate" href="../es/integrating-data-flow-collaboration.html" hreflang="es" />
+<link rel="alternate" href="../fr/integrating-data-flow-collaboration.html" hreflang="fr" />
+<link rel="alternate" href="../he/integrating-data-flow-collaboration.html" hreflang="he" />
+<link rel="alternate" href="../it/integrating-data-flow-collaboration.html" hreflang="it" />
+<link rel="alternate" href="../ja/integrating-data-flow-collaboration.html" hreflang="ja" />
+<link rel="alternate" href="../ko/integrating-data-flow-collaboration.html" hreflang="ko" />
+<link rel="alternate" href="integrating-data-flow-collaboration.html" hreflang="nl" />
+<link rel="alternate" href="../pt/integrating-data-flow-collaboration.html" hreflang="pt" />
+<link rel="alternate" href="../tr/integrating-data-flow-collaboration.html" hreflang="tr" />
+<link rel="alternate" href="../zh-cn/integrating-data-flow-collaboration.html" hreflang="zh-cn" />
+<link rel="alternate" href="../zh-cn/integrating-data-flow-collaboration.html" hreflang="zh" />
+<link rel="alternate" href="../en/integrating-data-flow-collaboration.html" hreflang="x-default" />
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?GTM-MKPW8K3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+<header>
+    <div id="header-container">
+        <div id="site-logo-container">
+            <a href="../nl.html">
+                <img
+                    src="../images/default/cimatron-logo-2025.svg"
+                    width="279"
+                    height="65"
+                    class="logo-image"
+                    alt="Cimatron logo">
+            </a>
+        </div>
+
+        <div class="main-menu-container">
+            <nav id="main-menu" class="main-menu hidden">
+                <ul id="menu" class="menu" aria-label="main menu">
+<li><a href="../nl.html" target="_self">Home</a></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-1" aria-label="Open Waarom Cimatron? submenu">Waarom Cimatron?</button><ul class="child" aria-label="Waarom Cimatron? submenu" id="submenu-1"><li><a href="time-to-market-reduction-first-time-right.html" target="_self">Verkorting van de time-to-market en first time right</a></li><li><a href="overcoming-skilled-labor-shortage-automation.html" target="_self">Tekort aan geschoolde arbeidskrachten oplossen (automatisering)</a></li><li><a href="handling-complex-geometry-materials.html" target="_self">Omgaan met complexe geometrie en materialen</a></li><li><a href="integrating-data-flow-collaboration.html" target="_self">Integratie van gegevensstroom en samenwerking</a></li></ul></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-2" aria-label="Open Producten &amp; Technologieën submenu">Producten &amp; Technologieën</button><ul class="child" aria-label="Producten &amp; Technologieën submenu" id="submenu-2"><li><a href="whats-new.html" target="_self">Laatste uitgave - Wat is er nieuw?</a></li><li><a href="cimatron-mold.html" target="_self">Matrijsontwerp</a></li><li><a href="cimatron-die.html" target="_self">Stempelontwerp</a></li><li><a href="cimatron-electrodes.html" target="_self">Ontwerp van de elektroden</a></li><li><a href="cimatron-nc-programming.html" target="_self">NC Programmering</a></li><li><a href="cimatron-viewer.html" target="_self">Cimatron-viewer</a></li><li><a href="cimatron-cad.html" target="_self">Cimatron CAD</a></li><li><a href="cimatron-cad-ai.html" target="_self">Cimatron CAD-AI</a></li><li><a href="cimatron-diequote.html" target="_self">Cimatron DieQuote</a></li></ul></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-3" aria-label="Open Hulpmiddelencentrum submenu">Hulpmiddelencentrum</button><ul class="child" aria-label="Hulpmiddelencentrum submenu" id="submenu-3"><li><a href="brochures.html" target="_self">Brochures</a></li><li><a href="customer-stories.html" target="_self">Casestudies</a></li><li><a href="videos.html" target="_self">Video's</a></li><li><a href="video-testimonials.html" target="_self">Video getuigenissen</a></li><li><a href="tutorials.html" target="_self">Lesmateriaal</a></li></ul></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-4" aria-label="Open Nieuws en evenementen submenu">Nieuws en evenementen</button><ul class="child" aria-label="Nieuws en evenementen submenu" id="submenu-4"><li><a href="news.html" target="_self">Nieuws</a></li><li><a href="events.html" target="_self">Evenementen</a></li><li><a href="webinars.html" target="_self">Webinars</a></li></ul></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-5" aria-label="Open Ondersteuning en contact submenu">Ondersteuning en contact</button><ul class="child" aria-label="Ondersteuning en contact submenu" id="submenu-5"><li><a href="support.html" target="_self">Technische ondersteuning</a></li><li><a href="contact-us.html" target="_self">Contactformulier</a></li><li><a href="request-trial-demo.html" target="_self">Een proefversie/demo aanvragen</a></li><li><a href="reseller-finder.html" target="_self">Zoek een wederverkoper</a></li><li><a href="newsletter.html" target="_self">Aanmelden nieuwsbrief</a></li><li><a href="https://licensinggmbh.cimatron.com/" target="_blank" rel="noopener">MyCimatron</a></li></ul></li><li class="show-on-small-screen parent language"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-6" aria-label="Open language submenu"><img src="../images/icons/iconmonstr-language-9.svg" width="24" height="24" alt="Language selector icon" class="svg-filter-color-theme-color-3" loading="lazy" decoding="async"> Nederlands</button><ul class="child language" aria-label="Language submenu" id="submenu-6"><li><a href="../en/integrating-data-flow-collaboration.html" lang="en">English</a></li><li><a href="../de/integrating-data-flow-collaboration.html" lang="de">Deutsch</a></li><li><a href="../es/integrating-data-flow-collaboration.html" lang="es">Español</a></li><li><a href="../fr/integrating-data-flow-collaboration.html" lang="fr">Français</a></li><li><a href="../it/integrating-data-flow-collaboration.html" lang="it">Italiano</a></li><li><a href="../pt/integrating-data-flow-collaboration.html" lang="pt">Português</a></li><li><a href="../tr/integrating-data-flow-collaboration.html" lang="tr">Türkçe</a></li><li><a href="../he/integrating-data-flow-collaboration.html" lang="he">עִבְרִית</a></li><li><a href="../ja/integrating-data-flow-collaboration.html" lang="ja">日本語</a></li><li><a href="../ko/integrating-data-flow-collaboration.html" lang="ko">한국어</a></li><li><a href="../zh-cn/integrating-data-flow-collaboration.html" lang="zh-cn">简体中文</a></li></ul></li>                </ul>
+            </nav>
+        </div>
+
+
+    <div class="header-tools">
+        <nav class="main-menu">
+            <ul>
+                <li class="parent language">
+                    <button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-7">
+                        <img src="../images/icons/iconmonstr-language-9.svg" width="24" height="24" alt="Language" class="svg-filter-color-theme-color-3" loading="lazy" decoding="async">
+                        Nederlands                    </button>
+                    <ul class="child language" id="submenu-7" aria-label="Language submenu">
+                        <li><a href="../en/integrating-data-flow-collaboration.html" lang="en">English</a></li><li><a href="../de/integrating-data-flow-collaboration.html" lang="de">Deutsch</a></li><li><a href="../es/integrating-data-flow-collaboration.html" lang="es">Español</a></li><li><a href="../fr/integrating-data-flow-collaboration.html" lang="fr">Français</a></li><li><a href="../it/integrating-data-flow-collaboration.html" lang="it">Italiano</a></li><li><a href="../pt/integrating-data-flow-collaboration.html" lang="pt">Português</a></li><li><a href="../tr/integrating-data-flow-collaboration.html" lang="tr">Türkçe</a></li><li><a href="../he/integrating-data-flow-collaboration.html" lang="he">עִבְרִית</a></li><li><a href="../ja/integrating-data-flow-collaboration.html" lang="ja">日本語</a></li><li><a href="../ko/integrating-data-flow-collaboration.html" lang="ko">한국어</a></li><li><a href="../zh-cn/integrating-data-flow-collaboration.html" lang="zh-cn">简体中文</a></li>                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+        <div class="header-tools flag">
+                        <a href="user/preferences.html">
+                <img
+                    src="../images/flags/20/us.gif"
+                    alt="Flag"
+                    title="Website Voorkeuren" loading="lazy" decoding="async" width="38" height="20" srcset="/images/flags/20/us.gif 38w" sizes="(min-width: 38px) 38px, 100vw">
+            </a>
+        </div>
+
+        <div class="header-tools">
+            <!-- Keeping your interim span (already audit-clean with role="button") -->
+            <span tabindex="0" aria-label="Share this page" role="button">
+                <img src="../images/icons/iconmonstr-share-2.svg" width="25" height="25" class="share-page-icon svg-filter-color-theme-color-5" title="Deel" alt="" loading="lazy" decoding="async">
+            </span>
+        </div>
+        
+        <div class="header-tools">
+            <a href="search.html">
+                <img src="../images/icons/iconmonstr-magnifier-lined.svg" width="40" height="40" alt="Search" title="Zoek op" class="svg-filter-color-theme-color-5" loading="lazy" decoding="async">
+            </a>
+        </div>
+    </div>
+
+    <div id="header-container-responsive">
+        <div id="site-logo-container-responsive">
+            <a href="../nl.html">
+                <img
+                    src="../images/default/cimatron-logo-2025.svg"
+                    width="215"
+                    height="50"
+                    class="logo-image"
+                    alt="Cimatron logo">
+            </a>
+        </div>
+    </div>
+</header>
+<nav id="breadcrumbs"><a href="index.html">Home</a> &gt; Waarom Cimatron? &gt; Integratie van gegevensstroom en samenwerking</nav>
+
+
+<main>
+<p class="ai-summary" data-ai-summary="true" data-purpose="summary">Cimatron verbetert de samenwerking en efficiëntie door de silo&#039;s tussen ontwerp en productie te doorbreken, waardoor een naadloze gegevensstroom en communicatie voor geoptimaliseerde productieprocessen mogelijk wordt.</p>
+<div class="hero-container dark"><img src="../collateral/3/images/960/integrating-data-flow-collaboration-hero.jpg" alt="Hero image" class="hero" width="960" height="540" srcset="/collateral/3/images/960/integrating-data-flow-collaboration-hero.jpg 960w" sizes="100vw" fetchpriority="high" />
+<div class="hero-text-container">
+<div class="hero-text">
+<h1>Integratie van gegevensstroom en samenwerking</h1>
+</div>
+</div>
+<div class="call-to-action"><a href="#free-trial">VRAAG EEN GRATIS PROEFVERSIE AAN</a></div>
+</div>
+<section>
+<h2>Verbind teams van ontwerp tot productie</h2>
+<p>Van fabrikanten wordt verwacht dat ze foutloze producten afleveren, zelfs als projecten steeds complexer worden. Hierdoor vormen miscommunicatie en knelpunten als gevolg van geïsoleerde workflows een groter obstakel dan ooit tevoren.</p>
+<p>Het werken met niet gekoppelde systemen maakt het moeilijk voor afzonderlijke afdelingen om toegang te krijgen tot actuele informatie, cruciale projectdetails te communiceren en snel te handelen wanneer er wijzigingen worden aangebracht.</p>
+<p>Cimatron neemt deze barrières weg door technologieën voor ontwerp, beoordeling en productie met elkaar te verbinden, zodat teams met dezelfde informatie werken en soepel kunnen samenwerken, snel beslissingen kunnen nemen en efficiënt kunnen produceren.</p>
+</section>
+<section>
+<h2>Belangrijkste voordelen</h2>
+<div class="grid-container">
+<div class="grid-card theme-color-3 center"><img src="../collateral/3/images/single-source-information.png" alt="Single Source Information" class="noresize" loading="lazy" decoding="async" width="128" height="128" srcset="/collateral/3/images/single-source-information.png 128w" sizes="(min-width: 128px) 128px, 100vw" />
+<h3>Sloop silo's</h3>
+<p>De communicatie en efficiëntie nemen toe wanneer projectmanagers, ontwerpers, CNC-programmeurs en medewerkers op de werkvloer toegang hebben tot één enkele bron met actuele informatie.</p>
+</div>
+<div class="grid-card theme-color-3 center"><img src="../collateral/3/images/performance.png" alt="Optimize data management" class="noresize" loading="lazy" decoding="async" width="128" height="128" srcset="/collateral/3/images/performance.png 128w" sizes="(min-width: 128px) 128px, 100vw" />
+<h3>Optimaliseer gegevensbeheer</h3>
+<p>Inheemse Cimatron-gegevens kunnen naadloos stromen tussen ontwerp- en productieafdelingen zonder dat vertaling nodig is. Toegang tot identieke informatie maakt dubbele bestanden, screenshots en meerdere formaten overbodig.</p>
+</div>
+<div class="grid-card theme-color-3 center"><img src="../collateral/3/images/improve-project-oversight.png" alt="Improve project oversight" class="noresize" loading="lazy" decoding="async" width="128" height="128" srcset="/collateral/3/images/improve-project-oversight.png 128w" sizes="(min-width: 128px) 128px, 100vw" />
+<h3>Verbeter het projecttoezicht</h3>
+<p>Ontwerp- en procesverificatiegereedschappen maken het eenvoudig om ontwerpfouten op te sporen en CNC-bewerkingen te controleren voor de productie.</p>
+</div>
+</div>
+</section>
+<section>
+<h2>Een uniforme oplossing voor ontwerp en productie</h2>
+<div class="grid-container">
+<div>
+<div class="flex-container middle">
+<div>
+<div class="circle-icon-container"><span class="material-icons notranslate">sync_alt</span></div>
+</div>
+<div>
+<h3>Stroomlijn communicatie</h3>
+</div>
+</div>
+<p>Snel en betrouwbaar bestanden importeren om ontwerpen, tekeningen, onderdelen, samenstellingen en productiegegevens te analyseren en te valideren en technische wijzigingen te visualiseren. Uitgebreide CAD-/CAM-informatie is toegankelijk via een vereenvoudigde en intuïtieve interface waarmee projectmanagers binnenkomende gegevens kunnen controleren op offerte- en schattingsinformatie.</p>
+</div>
+<div>
+<div class="flex-container middle">
+<div>
+<div class="circle-icon-container"><span class="material-icons notranslate">fact_check</span></div>
+</div>
+<div>
+<h3>Ontwerpbeoordelingen van mallen en matrijzen</h3>
+</div>
+</div>
+<p>Controleer eenvoudig de prestaties van belangrijke ontwerpfuncties, zoals lopers, poorten, koel- en ontluchtingssystemen en meer. Reviews helpen bij het bevestigen van de locaties van scheidingslijnen, ondersnijdingen, scheidingsmethoden en speling tussen matrijskenmerken en malcomponenten. Voor matrijsontwerpen vereenvoudigen reviews de analyse van materiaaleigenschappen, vloei- en treksterkte, materiaaldikte, vereist tonnage en algemene haalbaarheid.</p>
+</div>
+</div>
+<div class="grid-container">
+<div>
+<div class="flex-container middle">
+<div>
+<div class="circle-icon-container"><span class="material-icons notranslate">support</span></div>
+</div>
+<div>
+<h3>Overzicht assemblage</h3>
+</div>
+</div>
+<p>Assemblage is eenvoudig te visualiseren met overzichten die zoomen, pannen, roteren, dynamische doorsneden en draadmodellen van onderdelen ondersteunen. Gebruikers kunnen platen en componenten eenvoudig verbergen of weergeven, lagen isoleren, assemblages grafisch ontmantelen en gereedschappen openen of sluiten - waardoor zelfs de meest complexe bouwprocessen worden gestroomlijnd. Directe toegang tot constructiedetails versnelt ook de controle van geometrische dimensionering en toleranties (GD&amp;T) en de analyse van productinformatie (PMI).</p>
+</div>
+<div>
+<div class="flex-container middle">
+<div>
+<div class="circle-icon-container"><span class="material-icons notranslate">precision_manufacturing</span></div>
+</div>
+<div>
+<h3>Beoordelen van bewerkingsprocessen</h3>
+</div>
+</div>
+<p>Uitgebreide reviews van CNC-bewerkingsprocessen maken het eenvoudig om bewerkingstijden, gereedschapswissels en de configuraties van spindels, gereedschapshouders, gereedschapshouders en klemmen te analyseren. De beoordelingen hebben betrekking op bewerkingsparameters voor 2,5-assige tot volledig 5-assige gereedschapsbanen, inclusief 3-assige bewerkingen. Op de werkvloer kan het personeel snel G-code genereren voor elke CNC-machine, wat zorgt voor flexibiliteit en productie-efficiëntie.</p>
+</div>
+</div>
+</section>
+<section class="theme-color-4 full-width">
+<section class="narrow" id="trial-form">
+<h2 id="free-trial">Vraag een gratis proefversie van Cimatron aan</h2>
+<script nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ">
+var uniqueID = '93267';
+var htmlFormID = 'myForm-93267';
+</script>
+<!-- Embed form: Trial Request -->
+<a id="form-top-E0DB52EC-DC2D-49F5-815B4435AAAD8196"></a><div id="myForm-93267-container"><form id="myForm-93267" method="post" action="https://www.cimatron.com/nl/integrating-data-flow-collaboration" enctype="multipart/form-data"><input type="hidden" name="formchecks" value="Yimvk/m48oHPFjFRo5ayi3HOmkHR6PwKyUMRYiL0AipyUq4xH2M/VN9Gvpd26r8LQHviqPo6fr2ZcPpxKsTXXreh2MpsvLbxsB9ueZXIPw34PbYTmJZkFgnRuHWS8StTCm6caR9Jubz+pcasayh78hUBN0pRMmNS9AQbXLSvRIjCi7rmzGal/tql">
+<div class="pardot-honeypot"><label for="pardot_extra_field">Comments</label><input type="text" id="pardot_extra_field" name="pardot_extra_field" tabindex="-1"></div>
+<div class="grid-container"><div><div id="FieldContainer-firstname_93267" class="FieldContainer">
+<label for="firstname_93267">Voornaam<span class="required">*</span> (<span class="required">*</span>verplicht)</label>
+<input type="text" name="firstname" id="firstname_93267" placeholder="" class="" value="" autocomplete="given-name" required="required"><br />
+</div>
+</div><div><div id="FieldContainer-lastname_93267" class="FieldContainer">
+<label for="lastname_93267">Achternaam<span class="required">*</span></label>
+<input type="text" name="lastname" id="lastname_93267" placeholder="" class="" value="" autocomplete="family-name" required="required"><br />
+</div>
+</div></div><div id="FieldContainer-email_93267" class="FieldContainer">
+<label for="email_93267">E-mail<span class="required">*</span></label>
+<input type="email" name="email" id="email_93267" placeholder="" class="" value="" autocomplete="email" required="required"><br />
+</div>
+<div id="FieldContainer-phone_93267" class="FieldContainer">
+<label for="phone_93267">Telefoon<span class="required">*</span></label>
+<input type="text" name="phone" id="phone_93267" placeholder="" class="" value="" autocomplete="tel" required="required"><br />
+</div>
+<div id="FieldContainer-company_93267" class="FieldContainer">
+<label for="company_93267">Bedrijf<span class="required">*</span></label>
+<input type="text" name="company" id="company_93267" placeholder="" class="" value="" autocomplete="on" required="required"><br />
+</div>
+<div id="FieldContainer-country_93267" class="FieldContainer">
+<label for="country_93267">Land<span class="required">*</span></label>
+<select name="country" id="country_93267" autocomplete="on" class="" required="required" data-type="country" data-default=""><option selected disabled value="">Kies alstublieft</option>
+</select><br />
+</div>
+<div id="FieldContainer-subdivision_93267" class="FieldContainer">
+<div id="FieldOptionsContainer-subdivision_93267" data-dynamic="true" data-type="subdivision" data-name="subdivision"><label for="subdivision_93267">Staat/Provincie/Gemeente*</label><select name="subdivision" id="subdivision_93267" data-type="subdivision" autocomplete="on" class=""></select><br /></div>
+</div>
+<div id="FieldContainer-postalcode_93267" class="FieldContainer">
+<label for="postalcode_93267">Postcode<span class="required">*</span></label>
+<input type="text" name="postalcode" id="postalcode_93267" value="" class="" required="required" list="postalcode-datalist" autocomplete="off">
+<datalist id="postalcode-datalist"></datalist>
+</div>
+<div id="FieldContainer-industrycategory_93267" class="FieldContainer">
+<div id="FieldOptionsContainer-industrycategory_93267" data-dynamic="true" data-type="select" data-name="industrycategory"><label for="industrycategory_93267">Industrie*</label>
+<select name="industrycategory" id="industrycategory_93267" class="" required="required" data-type="select">
+    <option value="" selected disabled>Kies alstublieft</option>
+</select></div>
+</div>
+<div id="FieldContainer-industrysubsector_93267" class="FieldContainer">
+<div id="FieldOptionsContainer-industrysubsector_93267" data-dynamic="true" data-type="select" data-name="industrysubsector" data-parentformfield="industrycategory"><label for="industrysubsector_93267">Subsector*</label>
+<select name="industrysubsector" id="industrysubsector_93267" class="" required="required" data-type="select">
+    <option value="" selected disabled>Kies alstublieft</option>
+</select></div>
+</div>
+<div id="FieldContainer-interestlevel_93267" class="FieldContainer">
+<div id="FieldOptionsContainer-interestlevel_93267" data-dynamic="true" data-type="select" data-name="interestlevel"><label for="interestlevel_93267">Mate van belangstelling*</label>
+<select name="interestlevel" id="interestlevel_93267" class="" required="required" data-type="select">
+    <option value="" selected disabled>Kies alstublieft</option>
+</select></div>
+</div>
+<div id="FieldContainer-leadorigin_93267" class="FieldContainer">
+<label for="leadorigin_93267">Hoe heb je over ons gehoord?</label>
+<select name="leadorigin" id="leadorigin_93267" class="" data-type="select">
+    <option value="" selected disabled>Kies alstublieft</option>
+    <option value="Trade Show or Event">Beurs of evenement</option>
+    <option value="Website">Website</option>
+    <option value="Search Engine">Zoekmachine</option>
+    <option value="Social Media">Sociale media</option>
+    <option value="Advert">Advertentie</option>
+    <option value="Other">Andere</option>
+</select>
+</div>
+<div id="FieldContainer-gdprconsent_93267" class="FieldContainer">
+<div class="checkbox fieldoptioncontainer">
+<label><input type="checkbox" name="gdprconsent[]" id="gdprconsent_93267-1" value="1" class="" /><span>Door dit formulier in te vullen gaat u akkoord met de voorwaarden en het privacybeleid.</span></label>
+</div>
+</div>
+<div id="FieldContainer-gdprmarketing_93267" class="FieldContainer">
+<div class="checkbox fieldoptioncontainer">
+<label><input type="checkbox" name="gdprmarketing[]" id="gdprmarketing_93267-1" value="1" class="" /><span>Stuur follow-up communicatie van Cimatron. Ik begrijp dat ik mij op elk moment kan afmelden.</span></label>
+</div>
+</div>
+<input type="hidden" name="utm_source" id="utm_source_93267" value="">
+<input type="hidden" name="utm_medium" id="utm_medium_93267" value="">
+<input type="hidden" name="utm_campaign" id="utm_campaign_93267" value="">
+<input type="hidden" name="utm_content" id="utm_content_93267" value="">
+<input type="hidden" name="utm_term" id="utm_term_93267" value="">
+<script nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ">
+// Field scripts start
+
+
+                                function GetCountries_country_93267() {
+                                    var language_code = 'nl';
+                                    var structMyParams = {
+                                        label: 'Land'
+                                        ,attribs: {
+                                            id: 'country_93267'
+                                            ,name: 'country'
+                                        }
+                                        ,url: '/common/class.countries.php?method=getCountriesForSelect'
+                                        ,params: {
+                                            language_code: language_code
+                                            ,default: ''
+                                            ,required: true
+        }
+
+                                        //,complete: ShowOrHideFieldset('country_93267')
+
+                                    }
+                                    AJAXSelect(structMyParams);
+                                }
+                                
+                                $(document).ready(function() {
+                                    $('#country_93267').on('focus', function(e) {
+                                        if (document.querySelector('#country_93267').length <=3) { // Set to 3, because some country fields have Please choose, Any, and default country as option
+                                            GetCountries_country_93267();
+                                        }
+                                    })
+                                });
+                                
+                                function Update_subdivision_93267(defaultSubdivision) {
+                                    var country_code = $('#country_93267').val();
+                                    var structMyParams = {
+                                        label: 'Staat/Provincie/Gemeente'
+                                        ,attribs: {
+                                            id: 'subdivision_93267'
+                                            ,name: 'subdivision'
+                                        }
+                                        ,url: '/common/class.countries.php?method=getSubdivisionsForSelect'
+                                        ,params: {
+                                            country_code: country_code
+                                            ,default: defaultSubdivision
+                                            ,required: true
+        }
+
+                                        ,complete: ShowOrHideFieldset('subdivision_93267')
+
+                                    }
+                                    AJAXSelect(structMyParams);
+                                }
+                                
+                                    $(document).ready(function() {
+                                        Update_subdivision_93267('');
+                                        $('#country_93267').on('change', function(e) {
+                                            Update_subdivision_93267();
+                                        })
+                                    });
+                                    
+                                function GetPostalCodesForDataList_postalcode_93267() {
+                                    var dataList = document.getElementById('postalcode-datalist');
+                                    dataList.innerHTML = ''; // Clear all datalist options to start, before populating
+                                    $.ajax({
+                                        type: 'post'
+                                        ,url: '/common/class.countries.php?method=getPostalCodesForDataList'
+                                        ,data: {
+                                            'country': $('#country_93267').val()
+                                            ,'subdivision': $('#subdivision_93267').val()
+                                        }
+                                        ,cache: false
+                                        ,success: function (response) {
+                                            response = JSON.parse(response);
+                                            response.forEach((postcode) => {
+                                                var option = document.createElement('option');
+                                                option.value = postcode[0];
+                                                option.label = postcode[1];
+                                                dataList.appendChild(option);
+                                            });
+                                        }
+                                    })
+                                }
+                                
+                                    //Event delegation: $(document).ready(function() does not work when detecting events on dynamically created elements. See https://stackoverflow.com/questions/203198/event-binding-on-dynamically-created-elements
+                                    $('#myForm-93267').on('change', '[name^="country"]', function(event) {
+                                        GetPostalCodesForDataList_postalcode_93267();
+                                    })
+                                    
+                                    //Event delegation: $(document).ready(function() does not work when detecting events on dynamically created elements. See https://stackoverflow.com/questions/203198/event-binding-on-dynamically-created-elements
+                                    $('#myForm-93267').on('change', '[name^="subdivision"]', function(event) {
+                                        GetPostalCodesForDataList_postalcode_93267();
+                                    })
+                                    
+                                $(document).ready(function() {
+                                    GetPostalCodesForDataList_postalcode_93267();
+                                })
+                                function Update_industrycategory_93267() {
+    var structMyParams = {
+        fieldDefinitionJSON: '{"name":"industrycategory","label":"Industrie","type":"select","required":true,"csvfile":"industry-categories.csv","childformfield":"industrysubsector","valuecolumn":"id","displaycolumn":"nl","pleaseChooseText":"Kies alstublieft","placeholder":"","id":"industrycategory_93267","class":"","default":""}'
+        ,language: 'nl'
+        ,htmlformID: 'myForm-93267'
+        ,uniqueid: '93267'
+        ,formid: 'E0DB52EC-DC2D-49F5-815B4435AAAD8196'
+        ,callback: 'Update_industrysubsector_93267'
+        }
+    GetSelectFromCSV(structMyParams);
+}
+
+
+                                    $(document).ready(function() {
+                                        $('#industrycategory_93267').on('focus', function(e) {
+                                            if (document.querySelector('#industrycategory_93267').length <=1) {
+                                                Update_industrycategory_93267();
+                                            }
+                                        })
+                                    });
+                                    function Update_industrysubsector_93267() {
+    var structMyParams = {
+        fieldDefinitionJSON: '{"name":"industrysubsector","label":"Subsector","type":"select","required":true,"csvfile":"industry-segments.csv","parentformfield":"industrycategory","parentcolumn":"parent-id","valuecolumn":"id","displaycolumn":"nl","pleaseChooseText":"Kies alstublieft","placeholder":"","id":"industrysubsector_93267","class":"","default":""}'
+        ,language: 'nl'
+        ,htmlformID: 'myForm-93267'
+        ,uniqueid: '93267'
+        ,formid: 'E0DB52EC-DC2D-49F5-815B4435AAAD8196'
+        }
+    GetSelectFromCSV(structMyParams);
+}
+
+$('#myForm-93267').on('change', '[name="industrycategory"]', function(event) {
+    Update_industrysubsector_93267();
+})
+
+$('#myForm-93267').on('change', '[name="industrycategory[]"]', function(event) {
+    Update_industrysubsector_93267();
+})
+
+
+                                    $(document).ready(function() {
+                                        $('#industrysubsector_93267').on('focus', function(e) {
+                                            if (document.querySelector('#industrysubsector_93267').length <=1) {
+                                                Update_industrysubsector_93267();
+                                            }
+                                        })
+                                    });
+                                    function Update_interestlevel_93267() {
+    var structMyParams = {
+        fieldDefinitionJSON: '{"name":"interestlevel","label":"Mate van belangstelling","type":"select","required":true,"csvfile":"interest-level.csv","valuecolumn":"en","displaycolumn":"nl","pleaseChooseText":"Kies alstublieft","placeholder":"","id":"interestlevel_93267","class":"","default":""}'
+        ,language: 'nl'
+        ,htmlformID: 'myForm-93267'
+        ,uniqueid: '93267'
+        ,formid: 'E0DB52EC-DC2D-49F5-815B4435AAAD8196'
+        }
+    GetSelectFromCSV(structMyParams);
+}
+
+
+                                    $(document).ready(function() {
+                                        $('#interestlevel_93267').on('focus', function(e) {
+                                            if (document.querySelector('#interestlevel_93267').length <=1) {
+                                                Update_interestlevel_93267();
+                                            }
+                                        })
+                                    });
+                                    // Field scripts end
+</script>
+<script nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ">
+//Validation scripts start
+
+                function datalistValidator(value,element) {
+                    var dataList = document.getElementById(element.getAttribute('list'));
+                    var arrayValues = [];
+                    for (var option of dataList.options) {
+                        arrayValues.push(option.value);
+                    }
+                    if (arrayValues.length < 1) {
+                        return true;
+                    }
+                    return arrayValues.includes(value);
+                }
+
+                $(document).ready(function() {
+                    jQuery.validator.addMethod('isPostalCode', function(value, element) {
+                        return this.optional(element) || (datalistValidator(value, element));
+                    }, getLocalText('Must be a valid postal code'));
+                });
+                $(document).ready(function() {
+    $('#myForm-93267').validate({
+
+                submitHandler: function(form, e) {
+                
+
+                if (isSubmitting) {
+                    console.log('Submit denied');
+                    e.preventDefault();
+                    return;
+                }
+                console.log('Submit allowed');
+                isSubmitting = true;
+                            enableForms();
+            var formData = new FormData(form);
+            formData.append('nonce', 'UUZ5YnFkN2w3N2orV1RJeHE1V2VnUlc3a1VpditjdDF3aXR6TkRHVWFWQVNNcXBQ');
+
+                $.ajax({
+                    type: 'post'
+                    ,url: '/forms/form-handler.php'
+                    ,data: formData
+                    ,cache: false
+                    ,processData : false
+                    ,contentType : false
+                    ,success: function (response) {
+                        $('#myForm-93267-container').html(response);
+                    }
+                    ,complete: function (response) {
+                        isSubmitting = false; // reset isSubmitting flag, used to prevent multiple submissions
+                        scrollToElement('#myForm-93267-container', 200);
+                    }
+                })
+                        }
+        ,invalidHandler: function(form) {
+            hideLoadingBar();
+        }
+        ,rules: {
+			firstname: {required: true}
+			,lastname: {required: true}
+			,email: {required: true, email: true}
+			,phone: {required: true}
+			,company: {required: true}
+			,country: {required: true}
+			,subdivision: {required: true}
+			,postalcode: {required: true, isPostalCode: true}
+			,industrycategory: {required: true}
+			,industrysubsector: {required: true}
+			,interestlevel: {required: true}
+			,'gdprconsent[]': {required: true, minlength : 1}
+			,'gdprmarketing[]': {minlength : 1}
+		}
+        ,errorPlacement: function(error, element) {
+            if ( ( element.is(':radio') ) || ( element.is(':checkbox') ) )  {
+                error.appendTo( element.parents('.fieldoptioncontainer') );
+            }
+            else { // default behaviour
+                error.insertAfter( element );
+            }
+        }
+    });
+});
+//Validation scripts end
+</script>
+<p class="small"><a href="../en/about-this-site/legal-notice.html" target="_blank">Voorwaarden</a> | <a href="../en/about-this-site/privacy.html" target="_blank">Privacybeleid</a></p><p><button type="submit">Indienen</button></p><script src="../forms/phpfp/fp.js" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script>
+<span class="hidden"><label class="hidden">Leave this field empty<input id="fp69d4d2f97afc4" type="text" name="formfield1234567894" value="" /></label></span>
+<input type="hidden" name="st" value="1775570242" />
+<input id="fp69d4d2f97afc9" type="hidden" name="formfield1234567891" class="cffp_mm" value="" />
+<input id="fp69d4d2f97afca" type="hidden" name="formfield1234567892" class="cffp_kp" value="" />
+</form></div>
+</section>
+</section>
+<style nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ">
+main section span.material-icons {
+    font-size: 50px
+}
+</style><!-- PAGE BODY END -->
+<script src="../scripts/jquery/jquery-ui-1.13.2/ui/jquery-ui.min.js" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script>
+<link rel="stylesheet" href="../scripts/jquery/jquery-ui-1.13.2/ui/themes/base/jquery-ui.css" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ">
+
+    <script src="../scripts/i18n/3/nl.js" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script>
+    <script src="../scripts/jquery/jquery-validation-1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script><script src="../scripts/jquery/jquery-validation-1.19.3/additional-methods.min.js" integrity="sha512-XZEy8UQ9rngkxQVugAdOuBRDmJ5N4vCuNXCh8KlniZgDKTvf7zl75QBtaVG1lEhMFe2a2DuA22nZYY+qsI2/xA==" crossorigin="anonymous" referrerpolicy="no-referrer" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script><script src="../scripts/jquery/jquery-ui-1.13.2/ui/i18n/datepicker-nl.js" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script>
+<script src="../scripts/jquery/jquery-validation-1.19.3/src/localization/messages_nl.js" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script>
+<script src="../forms/form-scripts.js" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script>
+<script src="../scripts/bootstrap/5.3.5/js/bootstrap.bundle.min.js" integrity="sha256-ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=" crossorigin="anonymous" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ"></script>
+<link defer rel="stylesheet" href="../styles/print-styles.css" type="text/css" media="print" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ" />
+<link rel="stylesheet" id="accessible-stylesheet" href="../styles/accessible.css" type="text/css" disabled="" nonce="YWRUU0BPUm9BM3hHQGNJSUtMOEVoUUFBQUFJ" /><script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://www.cimatron.com#organization",
+            "name": "Cimatron",
+            "url": "https://www.cimatron.com/",
+            "availableLanguage": [
+                "en",
+                "de",
+                "es",
+                "fr",
+                "it",
+                "nl",
+                "pt",
+                "tr",
+                "he",
+                "ja",
+                "ko",
+                "zh-cn"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.cimatron.com/images/default/cimatron-logo-2025.svg",
+                "width": 279,
+                "height": 65
+            },
+            "sameAs": [
+                "https://www.youtube.com/user/CimatronGroup",
+                "https://x.com/cimatron",
+                "https://www.facebook.com/CimatronE",
+                "https://www.linkedin.com/company/cimatron"
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.cimatron.com#website",
+            "url": "https://www.cimatron.com/",
+            "name": "Cimatron",
+            "publisher": {
+                "@id": "https://www.cimatron.com#organization"
+            },
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.cimatron.com/nl/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        },
+        {
+            "@type": "WebPage",
+            "url": "https://www.cimatron.com/nl/integrating-data-flow-collaboration",
+            "description": "Cimatron verbetert de samenwerking en efficiëntie door de silo's tussen ontwerp en productie te doorbreken, waardoor een naadloze gegevensstroom en communicatie voor geoptimaliseerde productieprocessen mogelijk wordt.",
+            "inLanguage": "nl",
+            "@id": "https://www.cimatron.com/nl/integrating-data-flow-collaboration#main",
+            "name": "Integratie van gegevensstroom en samenwerking",
+            "dateModified": "2025-09-08T06:02:53+00:00",
+            "primaryImageOfPage": {
+                "@type": "ImageObject",
+                "url": "https://www.cimatron.com/collateral/3/images/960/integrating-data-flow-collaboration-hero.jpg",
+                "width": 960,
+                "height": 540
+            }
+        }
+    ]
+}
+</script>
+    </main>
+
+    <footer>
+    
+
+    <section id="site-quick-links" class="full-width">
+    <section>
+    <div class="flex-container">
+    <div>
+        <p><strong>Volg ons op</strong></p>
+
+    <div class="social-container"><ul class="social-icons"><li><a href="https://www.youtube.com/user/CimatronGroup" target="_blank" title="youtube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"></path></svg></a></li>
+    <li><a href="https://x.com/cimatron" target="_blank" title="x"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0z M 13.274 11.265L 18.39 5.781H 17.207L 12.78 10.63L 9.308 5.781H 5.28L 10.436 13.295L 5.28 19.094H 6.463L 10.984 13.727L 14.718 19.094H 18.72L 13.274 11.265H 13.274ZM 11.725 13.26L 11.214 12.56L 7.152 6.744H 8.943L 12.189 11.442L 12.701 12.142L 17.207 18.094H 15.416L 11.725 13.261V 13.26Z"/></svg></a></li>
+    <li><a href="https://www.facebook.com/CimatronE" target="_blank" title="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"></path></svg></a></li>
+    <li><a href="https://www.linkedin.com/company/cimatron" target="_blank" title="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"></path></svg></a></li>
+    </ul></div>
+
+    </div>
+    <div class="border-inline-start">
+        <ul>
+            <li><strong>Waarom Cimatron?</strong></li>
+            <li><a href="time-to-market-reduction-first-time-right.html">Verkorting van de time-to-market en first time right</a></li>
+            <li><a href="overcoming-skilled-labor-shortage-automation.html">Tekort aan geschoolde arbeidskrachten oplossen (automatisering)</a></li>
+            <li><a href="handling-complex-geometry-materials.html">Omgaan met complexe geometrie en materialen</a></li>
+            <li><a href="integrating-data-flow-collaboration.html">Integratie van gegevensstroom en samenwerking</a></li>
+        </ul>
+        <ul>
+            <li><strong>Onze technologieën</strong></li>
+            <li><a href="whats-new.html">Kijk wat er nieuw is (Laatste uitgave)</a></li>
+            <li><a href="cimatron-mold.html">Matrijsontwerp</a></li>
+            <li><a href="cimatron-die.html">Stempelontwerp</a></li>
+            <li><a href="cimatron-electrodes.html">Ontwerp van de elektroden</a></li>
+            <li><a href="cimatron-nc-programming.html">NC Programmering</a></li>
+        </ul>
+    </div>
+    <div class="border-inline-start">
+        <ul>
+            <li><strong>Hulpmiddelencentrum</strong></li>
+            <li><a href="brochures.html">Brochures downloaden</a></li>
+            <li><a href="customer-stories.html">Succesverhalen van klanten</a></li>
+            <li><a href="product-videos.html">Bekijk productvideo's</a></li>
+            <li><a href="video-testimonials.html">Bekijk getuigenissen van klanten</a></li>
+            <li><a href="tutorials.html">Toegang Handleidingen</a></li>
+        </ul>
+        <ul>
+        <li><strong>Nieuws en evenementen</strong></li>
+            <li><a href="news.html">Laatste nieuws</a></li>
+            <li><a href="events.html">Komende evenementen</a></li>
+            <li><a href="webinars.html">Doe mee aan onze webinars</a></li>
+        </ul>
+    </div>
+    <div class="border-inline-start">
+        <ul>
+        <li><strong>Snelle ondersteuning en contact</strong></li>
+            <li><a href="support.html">Technische ondersteuning krijgen</a></li>
+            <li><a href="cimatron-copilot-landing.html">Cimatron Copilot - AI-ondersteuning</a></li>
+            <li><a href="contact-us.html">Neem contact met ons op</a></li>
+            <li><a href="request-trial-demo.html">Vraag een demo aan</a></li>
+            <li><a href="request-trial-demo.html">Start uw gratis proefabonnement</a></li>
+            <li><a href="reseller-finder.html">Zoek een wederverkoper</a></li>
+        </ul>
+        <ul>
+        <li><strong>Over Cimatron</strong></li>
+        <li><a href="https://sandvik.wd3.myworkdayjobs.com/cimatron-jobs" target="_blank">Vacatures</a></li>
+        </ul>
+    </div>
+    </div>
+    </section>
+    </section>
+    <section class="theme-footer full-width">
+    <div class="grid-container center middle">
+        <div class="footer-logo">
+            <a href="../nl.html">
+                <img src="../images/default/cimatron-logo-white-2025.svg" width="199" height="50" alt="Cimatron footer logo" loading="lazy">
+            </a>
+        </div>
+        <div>
+                        <div class="grid-container center middle">
+                <div>
+                    <div class="footer-link-container">
+                        <!-- nl -->
+                        <ul class="footer-link">
+                                                                <li><a href="../en/about-this-site/privacy.html" target="about-this-site">Privacybeleid</a></li>
+                                    <li><button class="as-link" data-function="Optanon.ToggleInfoDisplay">Cookie instellingen</button></li>
+                                    <li><a href="../en/about-this-site/cookie-privacy-policy.html" target="about-this-site">Cookie details</a></li>
+                                    <li><a href="../en/about-this-site/legal-notice.html" target="about-this-site">Voorwaarden</a></li>
+                                                                        <li><a href="sitemap.html">Sitemap</a></li>
+                                                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container center middle">
+                <div class="copyright-text">Copyright © 2026 | Cimatron | Alle rechten voorbehouden</div>
+            </div>
+        </div>
+        <div class="footer-part-of-sandvik">
+            <a href="https://www.manufacturingsolutions.sandvik/en/" target="_blank">
+                <img src="../images/default/part-of-sandvik_logo_white.svg" width="141" height="35" alt="Part of Sandvik group logo" loading="lazy">
+            </a>
+        </div>
+    </div>
+</section>
+
+<nav id="small-screen-menu-nav" class="hidden">
+    <div id="small-screen-menu">
+        <div><a href="../nl.html"><img src="../images/icons/iconmonstr-home-7.svg" alt="Home" class="icon svg-filter-color-theme-color-5"></a></div>
+        <div><a href="user/preferences.html"><img src="../images/icons/iconmonstr-gear-2.svg" alt="Preferences" class="icon svg-filter-color-theme-color-5"></a></div>
+        <div><a href="search.html"><img src="../images/icons/iconmonstr-magnifier-lined.svg" alt="Search" class="icon svg-filter-color-theme-color-5"></a></div>
+        <div><a tabindex="0" id="hamburger-toggler" class="icon"><img src="../images/icons/iconmonstr-menu-lined.svg" alt="Menu" class="icon svg-filter-color-theme-color-5"></a></div>
+    </div>
+</nav>
+
+<button id="scrollToTopButton" data-function="topFunction" title="Scroll naar boven"><img src="../images/icons/iconmonstr-arrow-up-alt-filled.svg" alt="Scroll to top"></button>
+
+    </footer>
+
+        
+
+</body>
+
+
+<!-- Mirrored from www.cimatron.com/nl/integrating-data-flow-collaboration by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Apr 2026 10:33:47 GMT -->
+</html>

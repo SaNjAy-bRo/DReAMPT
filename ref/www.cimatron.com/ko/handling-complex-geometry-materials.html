@@ -1,0 +1,766 @@
+<!DOCTYPE HTML>
+<html lang="ko" dir="ltr">
+
+<!-- Mirrored from www.cimatron.com/ko/handling-complex-geometry-materials by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Apr 2026 10:30:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+            <!-- Google Tag Manager --><script nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MKPW8K3');</script><!-- End Google Tag Manager -->
+            <meta charset="utf-8">
+<meta name="google-site-verification" content="Jca52SxqWXCnOEyhiHf_L_BtrDQMitbaMd6saeOToH4" />
+<title>복잡한 형상 및 난삭재 가공 솔루션</title>
+<meta name="title" content="복잡한 형상 및 난삭재 가공 솔루션">
+<meta name="description" content="Cimatron은 복잡한 형상(지오메트리)과 까다로운 재료를 효과적으로 처리할 수 있는 고급 설계, 가공 및 시뮬레이션 도구를 제공하여 정밀도와 효율성을 갖춘 고품질 생산을 보장합니다.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="../scripts/jquery/3.6.1/jquery-3.6.1.min.js" integrity="sha384-i61gTtaoovXtAbKjo903+O55Jkn2+RtzHtvNez+yI49HAASvznhe9sZyjaSHTau9" crossorigin="anonymous" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script>
+<link rel="stylesheet" href="../scripts/bootstrap/5.3.5/css/bootstrap.min.css" integrity="sha256-zzPh8NflvEInFbVSzLYGVMLOn0j0kfsjq/UlNeMBRYw=" crossorigin="anonymous" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw" />
+<script src="../scripts/common-scripts.js" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script>
+<link rel="preload" href="../styles/cimatron-consolidated-2025.css" as="style" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw" />
+<link rel="stylesheet" href="../styles/cimatron-consolidated-2025.css" type="text/css" media="all" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw" />
+<link rel="icon" href="../images/icons/cimatron-favicon.svg" type="image/svg+xml" /><link rel="icon" href="../images/icons/cimatron-favicon.png" />
+<style nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw">header div#header-container{position:fixed;inset-block-start:0;inset-inline:0;width:auto;min-height:120px;background-color:#fff;z-index:1000}main{margin:120px auto 0 auto;min-height:66vh}@media (max-width:992px){header div#header-container{min-height:unset}header div#header-container-responsive{display:flex;position:fixed;inset-block-start:0;inset-inline:0;height:70px;max-height:70px;background-color:#fff;z-index:999}main{margin:70px auto 0 auto}nav#breadcrumbs{margin:70px 0 -70px 0}}div.hero-container{position:relative;max-height:360px;overflow:hidden;display:flex;align-items:center}div.hero-container picture{display:block}div.hero-container img.hero,div.hero-container video.hero{width:100%;height:auto;object-fit:cover}div.hero-container img.hero{aspect-ratio:16/9}@supports not (aspect-ratio:1/1){div.hero-container{height:auto;}div.hero-container::before{content:"";display:block;padding-top:56.25%;}div.hero-container img.hero,div.hero-container video.hero{position:absolute;inset:0}}div.hero-container div.hero-text-container{position:absolute;width:100%;z-index:1}div.hero-container div.hero-text{position:relative;padding:1em;margin:0 80px}@media (max-width:992px){div.hero-container div.hero-text{margin:0 1em;font-size:.6em}}</style>
+<link rel="preload" href="../fonts/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="../fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin />
+<meta name="application-name" content="Cimatron" />
+<meta name="creator" content="Cimatron" />
+<meta name="publisher" content="Cimatron" />
+<meta name="last-modified" content="2025-09-10T07:57:32+00:00" />
+<meta name="theme-color" content="#224356" />
+<meta property="og:url" content="https://www.cimatron.com/ko/handling-complex-geometry-materials" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="복잡한 형상 및 난삭재 가공 솔루션" />
+<meta property="og:description" content="Cimatron은 복잡한 형상(지오메트리)과 까다로운 재료를 효과적으로 처리할 수 있는 고급 설계, 가공 및 시뮬레이션 도구를 제공하여 정밀도와 효율성을 갖춘 고품질 생산을 보장합니다." />
+<meta property="og:locale" content="ko" />
+<meta property="og:image" content="https://www.cimatron.com/collateral/3/images/handling-complex-geometry-materials-hero.jpg" />
+<link rel="canonical" href="handling-complex-geometry-materials.html" />
+<link rel="alternate" href="../de/handling-complex-geometry-materials.html" hreflang="de" />
+<link rel="alternate" href="../en/handling-complex-geometry-materials.html" hreflang="en" />
+<link rel="alternate" href="../es/handling-complex-geometry-materials.html" hreflang="es" />
+<link rel="alternate" href="../fr/handling-complex-geometry-materials.html" hreflang="fr" />
+<link rel="alternate" href="../he/handling-complex-geometry-materials.html" hreflang="he" />
+<link rel="alternate" href="../it/handling-complex-geometry-materials.html" hreflang="it" />
+<link rel="alternate" href="../ja/handling-complex-geometry-materials.html" hreflang="ja" />
+<link rel="alternate" href="handling-complex-geometry-materials.html" hreflang="ko" />
+<link rel="alternate" href="../nl/handling-complex-geometry-materials.html" hreflang="nl" />
+<link rel="alternate" href="../pt/handling-complex-geometry-materials.html" hreflang="pt" />
+<link rel="alternate" href="../tr/handling-complex-geometry-materials.html" hreflang="tr" />
+<link rel="alternate" href="../zh-cn/handling-complex-geometry-materials.html" hreflang="zh-cn" />
+<link rel="alternate" href="../zh-cn/handling-complex-geometry-materials.html" hreflang="zh" />
+<link rel="alternate" href="../en/handling-complex-geometry-materials.html" hreflang="x-default" />
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?GTM-MKPW8K3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+<header>
+    <div id="header-container">
+        <div id="site-logo-container">
+            <a href="../ko.html">
+                <img
+                    src="../images/default/cimatron-logo-2025.svg"
+                    width="279"
+                    height="65"
+                    class="logo-image"
+                    alt="Cimatron logo">
+            </a>
+        </div>
+
+        <div class="main-menu-container">
+            <nav id="main-menu" class="main-menu hidden">
+                <ul id="menu" class="menu" aria-label="main menu">
+<li><a href="../ko.html" target="_self">홈</a></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-1" aria-label="Open 왜 Cimatron인가? submenu">왜 Cimatron인가?</button><ul class="child" aria-label="왜 Cimatron인가? submenu" id="submenu-1"><li><a href="time-to-market-reduction-first-time-right.html" target="_self">제조의 시작 단계부터 정확하고 빠른 생산</a></li><li><a href="overcoming-skilled-labor-shortage-automation.html" target="_self">자동화를 통한 인력 문제 해결</a></li><li><a href="handling-complex-geometry-materials.html" target="_self">복잡한 형상 및 난삭재 가공 솔루션</a></li><li><a href="integrating-data-flow-collaboration.html" target="_self">데이터 연계 및 협업 강화</a></li></ul></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-2" aria-label="Open 제품 및 기술 submenu">제품 및 기술</button><ul class="child" aria-label="제품 및 기술 submenu" id="submenu-2"><li><a href="whats-new.html" target="_self">Cimatron 최신 버전</a></li><li><a href="cimatron-mold.html" target="_self">금형설계</a></li><li><a href="cimatron-die.html" target="_self">프레스 금형설계</a></li><li><a href="cimatron-electrodes.html" target="_self">전극 설계</a></li><li><a href="cimatron-nc-programming.html" target="_self">NC 프로그래밍</a></li><li><a href="cimatron-viewer.html" target="_self">Cimatron Viewer</a></li><li><a href="cimatron-cad.html" target="_self">Cimatron CAD</a></li><li><a href="cimatron-cad-ai.html" target="_self">Cimatron CAD-AI</a></li><li><a href="cimatron-diequote.html" target="_self">Cimatron DieQuote</a></li></ul></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-3" aria-label="Open 미디어 센터 submenu">미디어 센터</button><ul class="child" aria-label="미디어 센터 submenu" id="submenu-3"><li><a href="brochures.html" target="_self">브로슈어</a></li><li><a href="videos.html" target="_self">동영상</a></li><li><a href="customer-stories.html" target="_self">성공 사례</a></li><li><a href="video-testimonials.html" target="_self">성공 사례 영상</a></li><li><a href="tutorials.html" target="_self">튜토리얼 영상</a></li></ul></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-4" aria-label="Open 뉴스 및 이벤트 submenu">뉴스 및 이벤트</button><ul class="child" aria-label="뉴스 및 이벤트 submenu" id="submenu-4"><li><a href="news.html" target="_self">최신 뉴스</a></li><li><a href="events.html" target="_self">이벤트</a></li><li><a href="webinars.html" target="_self">웨비나</a></li></ul></li><li class="parent"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-5" aria-label="Open 지원 및 연락처 submenu">지원 및 연락처</button><ul class="child" aria-label="지원 및 연락처 submenu" id="submenu-5"><li><a href="support.html" target="_self">기술 지원 신청</a></li><li><a href="contact-us.html" target="_self">제품 문의</a></li><li><a href="request-trial-demo.html" target="_self">무료 평가판/데모 요청</a></li><li><a href="reseller-finder.html" target="_self">리셀러 찾기</a></li><li><a href="newsletter.html" target="_self">뉴스레터 가입</a></li></ul></li><li class="show-on-small-screen parent language"><button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-6" aria-label="Open language submenu"><img src="../images/icons/iconmonstr-language-9.svg" width="24" height="24" alt="Language selector icon" class="svg-filter-color-theme-color-3" loading="lazy" decoding="async"> 한국어</button><ul class="child language" aria-label="Language submenu" id="submenu-6"><li><a href="../en/handling-complex-geometry-materials.html" lang="en">English</a></li><li><a href="../de/handling-complex-geometry-materials.html" lang="de">Deutsch</a></li><li><a href="../es/handling-complex-geometry-materials.html" lang="es">Español</a></li><li><a href="../fr/handling-complex-geometry-materials.html" lang="fr">Français</a></li><li><a href="../it/handling-complex-geometry-materials.html" lang="it">Italiano</a></li><li><a href="../nl/handling-complex-geometry-materials.html" lang="nl">Nederlands</a></li><li><a href="../pt/handling-complex-geometry-materials.html" lang="pt">Português</a></li><li><a href="../tr/handling-complex-geometry-materials.html" lang="tr">Türkçe</a></li><li><a href="../he/handling-complex-geometry-materials.html" lang="he">עִבְרִית</a></li><li><a href="../ja/handling-complex-geometry-materials.html" lang="ja">日本語</a></li><li><a href="../zh-cn/handling-complex-geometry-materials.html" lang="zh-cn">简体中文</a></li></ul></li>                </ul>
+            </nav>
+        </div>
+
+
+    <div class="header-tools">
+        <nav class="main-menu">
+            <ul>
+                <li class="parent language">
+                    <button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-7">
+                        <img src="../images/icons/iconmonstr-language-9.svg" width="24" height="24" alt="Language" class="svg-filter-color-theme-color-3" loading="lazy" decoding="async">
+                        한국어                    </button>
+                    <ul class="child language" id="submenu-7" aria-label="Language submenu">
+                        <li><a href="../en/handling-complex-geometry-materials.html" lang="en">English</a></li><li><a href="../de/handling-complex-geometry-materials.html" lang="de">Deutsch</a></li><li><a href="../es/handling-complex-geometry-materials.html" lang="es">Español</a></li><li><a href="../fr/handling-complex-geometry-materials.html" lang="fr">Français</a></li><li><a href="../it/handling-complex-geometry-materials.html" lang="it">Italiano</a></li><li><a href="../nl/handling-complex-geometry-materials.html" lang="nl">Nederlands</a></li><li><a href="../pt/handling-complex-geometry-materials.html" lang="pt">Português</a></li><li><a href="../tr/handling-complex-geometry-materials.html" lang="tr">Türkçe</a></li><li><a href="../he/handling-complex-geometry-materials.html" lang="he">עִבְרִית</a></li><li><a href="../ja/handling-complex-geometry-materials.html" lang="ja">日本語</a></li><li><a href="../zh-cn/handling-complex-geometry-materials.html" lang="zh-cn">简体中文</a></li>                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+        <div class="header-tools flag">
+                        <a href="user/preferences.html">
+                <img
+                    src="../images/flags/20/us.gif"
+                    alt="Flag"
+                    title="웹사이트 기본 설정" loading="lazy" decoding="async" width="38" height="20" srcset="/images/flags/20/us.gif 38w" sizes="(min-width: 38px) 38px, 100vw">
+            </a>
+        </div>
+
+        <div class="header-tools">
+            <!-- Keeping your interim span (already audit-clean with role="button") -->
+            <span tabindex="0" aria-label="Share this page" role="button">
+                <img src="../images/icons/iconmonstr-share-2.svg" width="25" height="25" class="share-page-icon svg-filter-color-theme-color-5" title="공유" alt="" loading="lazy" decoding="async">
+            </span>
+        </div>
+        
+        <div class="header-tools">
+            <a href="search.html">
+                <img src="../images/icons/iconmonstr-magnifier-lined.svg" width="40" height="40" alt="Search" title="검색하기" class="svg-filter-color-theme-color-5" loading="lazy" decoding="async">
+            </a>
+        </div>
+    </div>
+
+    <div id="header-container-responsive">
+        <div id="site-logo-container-responsive">
+            <a href="../ko.html">
+                <img
+                    src="../images/default/cimatron-logo-2025.svg"
+                    width="215"
+                    height="50"
+                    class="logo-image"
+                    alt="Cimatron logo">
+            </a>
+        </div>
+    </div>
+</header>
+<nav id="breadcrumbs"><a href="index.html">홈</a> &gt; 왜 Cimatron인가? &gt; 복잡한 형상 및 난삭재 가공 솔루션</nav>
+
+
+<main>
+<p class="ai-summary" data-ai-summary="true" data-purpose="summary">Cimatron은 복잡한 형상(지오메트리)과 까다로운 재료를 효과적으로 처리할 수 있는 고급 설계, 가공 및 시뮬레이션 도구를 제공하여 정밀도와 효율성을 갖춘 고품질 생산을 보장합니다.</p>
+<div class="hero-container dark"><img src="../collateral/3/images/handling-complex-geometry-materials-hero.jpg" alt="Hero image" class="hero" width="1920" height="1080" srcset="/collateral/3/images/480/handling-complex-geometry-materials-hero.jpg 480w, /collateral/3/images/960/handling-complex-geometry-materials-hero.jpg 960w, /collateral/3/images/1280/handling-complex-geometry-materials-hero.jpg 1280w, /collateral/3/images/handling-complex-geometry-materials-hero.jpg 1920w" sizes="100vw" fetchpriority="high">
+<div class="hero-text-container">
+<div class="hero-text">
+<h1>복잡한 형상 및 난삭재 가공 솔루션
+</h1>
+</div>
+</div>
+<div class="call-to-action"><a href="#free-trial">무료 체험판 요청하기</a></div>
+</div>
+<section>
+<h2>이제, 복잡한 형상과 까다로운 소재 때문에 생산 속도를 늦추지 마세요.</h2>
+<p>최근 형상과 재료가 점점 더 복잡해지고, 경화강이나 특수 합금과 같은 소재에 대한 요구가 증가하면서 제한된 기한 내에 고품질 제품을 생산하는 것이 더욱 어려워지고 있습니다.</p>
+<p>Cimatron은 가장 까다로운 제조 환경을 위해 개발된 첨단 설계 및 가공 기능으로 이러한 현장의 도전과제를 안정적으로 해결할 수 있도록 지원합니다.</p>
+<p>이 소프트웨어의 강력한 설계, 시뮬레이션, 가공 도구를 통해 복잡한 형상과 소재에서도 뛰어난 정밀도, 신뢰성, 효율성을 보장합니다.</p>
+</section>
+<section>
+<h2>주요 이점</h2>
+<div class="grid-container key-benefits">
+<div class="grid-card theme-color-3 center"><img src="../collateral/3/images/sophisticated-design.png" alt="Sophisticated design" class="noresize" loading="lazy" decoding="async" width="128" height="128" srcset="/collateral/3/images/sophisticated-design.png 128w" sizes="(min-width: 128px) 128px, 100vw">
+<h3>정교한 설계</h3>
+<p>고급 솔리드 및 서피스 모델링 도구는 깊은 캐비티, 언더컷, 자유형 표면 등 복잡한 부품의 설계를 간소화합니다.</p>
+</div>
+<div class="grid-card theme-color-3 center"><img src="../collateral/3/images/powerful-machining.png" alt="Powerful machining" class="noresize" loading="lazy" decoding="async" width="128" height="128" srcset="/collateral/3/images/powerful-machining.png 128w" sizes="(min-width: 128px) 128px, 100vw">
+<h3>강력한 가공 기능</h3>
+<p>CNC 프로그래밍 기능은 복잡한 형상과 단단한 소재에 최적화된 3축~5축 가공 전략을 제공합니다.</p>
+</div>
+<div class="grid-card theme-color-3 center"><img src="../collateral/3/images/simulation.png" alt="Advanced simulation" class="noresize" loading="lazy" decoding="async" width="128" height="128" srcset="/collateral/3/images/simulation.png 128w" sizes="(min-width: 128px) 128px, 100vw">
+<h3>어드벤스 시뮬레이션</h3>
+<p>툴패스 시뮬레이션에서는 기계 키네매틱, 고정구, 공작물까지 세밀하게 검증되어, 현장 오류와 불필요한 비용을 사전에 방지할 수 있습니다.</p>
+</div>
+<div class="grid-card theme-color-3 center"><img src="../collateral/3/images/solution.png" alt="Specialist solutions" class="noresize" loading="lazy" decoding="async" width="128" height="128" srcset="/collateral/3/images/solution.png 128w" sizes="(min-width: 128px) 128px, 100vw">
+<h3>전문가 솔루션</h3>
+<p>몰드, 다이, 전극 등 전문분야별 솔루션에는 실제 제조 현장의 문제를 해결할 수 있는 산업 전문 기술이 집약되어 있습니다.</p>
+</div>
+</div>
+</section>
+<section>
+<div class="grid-container">
+<div>
+<div class="flex-container middle">
+<div>
+<div class="circle-icon-container"><span class="material-icons notranslate">model_training</span></div>
+</div>
+<div>
+<h3>어드벤스 모델링</h3>
+</div>
+</div>
+model_training
+<p>하이브리드 솔리드 및 서피스 모델링 도구를 사용하면 깊은 캐비티, 언더컷, 프리폼 표면 등 매우 복잡한 부품을 쉽게 설계하고 수정할 수 있습니다. 설계자는 프로젝트의 고유한 요구 사항에 가장 효과적인 모델링 방식을 선택할 수 있습니다.</p>
+</div>
+<div>
+<div class="flex-container middle">
+<div>
+<div class="circle-icon-container"><span class="material-icons notranslate">merge</span></div>
+</div>
+<div>
+<h3>다축 가공</h3>
+</div>
+</div>
+<p>Cimatron의 특화된 3축~5축 가공 전략은 복잡한 형상과 단단한 소재에 최적화된 툴패스 전략을 생성합니다. 트로코이드 밀링, 고속 가공 및 특수 정삭 전략은 효율적인 재료 제거, 완벽한 서피스 마감 및 연장된 공구 수명을 보장합니다.</p>
+</div>
+</div>
+<div class="grid-container">
+<div>
+<div class="flex-container middle">
+<div>
+<div class="circle-icon-container"><span class="material-icons notranslate">view_in_ar</span></div>
+</div>
+<div>
+<h3>시뮬레이션 및 충돌 감지</h3>
+</div>
+</div>
+<p>다축 툴패스 시뮬레이션과 포괄적인 가우징 및 충돌 감지 도구를 사용하여 자신 있게 가공하십시오. 상세한 툴패스 시뮬레이션에는 기계 키네매틱, 공작물 및 고정구가 포함됩니다. 충돌 및 가우지 감지는 기계 도구, 고정구, 스톡, 공작물, 절삭 공구 및 공구 홀더의 안전하고 효율적인 작동을 검증합니다.</p>
+</div>
+<div>
+<div class="flex-container middle">
+<div>
+<div class="circle-icon-container"><span class="material-icons notranslate">settings</span></div>
+</div>
+<div>
+<h3>전문 솔루션</h3>
+</div>
+</div>
+<p>까다로운 재료와 복잡한 형상을 다루는 작업은 임베디드 산업 전문 지식을 제공하는 전문 소프트웨어 솔루션으로 간소화됩니다. 몰드, 다이 및 전극 설계 및 생산 전용 소프트웨어는 해당 애플리케이션 고유의 문제를 해결하기 위한 전용 도구를 제공합니다.</p>
+</div>
+</div>
+</section>
+<section class="theme-color-4 full-width">
+<section class="narrow" id="trial-form">
+<h2 id="free-trial">Cimatron 무료 평가판 요청하기</h2>
+<script nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw">
+var uniqueID = '69878';
+var htmlFormID = 'myForm-69878';
+</script>
+<!-- Embed form: Trial Request -->
+<a id="form-top-E0DB52EC-DC2D-49F5-815B4435AAAD8196"></a><div id="myForm-69878-container"><form id="myForm-69878" method="post" action="https://www.cimatron.com/ko/handling-complex-geometry-materials" enctype="multipart/form-data"><input type="hidden" name="formchecks" value="Yimvk/m48oHPFjFRo5ayi3HOmkHR6PwKyUMRYiL0AipyUq4xH2M/VN9Gvpd26r8LQHviqPo6fr2ZcPpxKsTXXreh2MpsvLbxsB9ueZXIPw34PbYTmJZkFgnRuHWS8StTCmufaR9Itqb/rt2jeGx2+lUVOltIMmJb9B5TS6m6BYTBkK310W6m49ql">
+<div class="pardot-honeypot"><label for="pardot_extra_field">Comments</label><input type="text" id="pardot_extra_field" name="pardot_extra_field" tabindex="-1"></div>
+<div class="grid-container"><div><div id="FieldContainer-firstname_69878" class="FieldContainer">
+<label for="firstname_69878">이름*<span class="required">*</span> (<span class="required">*</span>필수)</label>
+<input type="text" name="firstname" id="firstname_69878" placeholder="" class="" value="" autocomplete="given-name" required="required"><br />
+</div>
+</div><div><div id="FieldContainer-lastname_69878" class="FieldContainer">
+<label for="lastname_69878">성<span class="required">*</span></label>
+<input type="text" name="lastname" id="lastname_69878" placeholder="" class="" value="" autocomplete="family-name" required="required"><br />
+</div>
+</div></div><div id="FieldContainer-email_69878" class="FieldContainer">
+<label for="email_69878">이메일<span class="required">*</span></label>
+<input type="email" name="email" id="email_69878" placeholder="" class="" value="" autocomplete="email" required="required"><br />
+</div>
+<div id="FieldContainer-phone_69878" class="FieldContainer">
+<label for="phone_69878">전화번호<span class="required">*</span></label>
+<input type="text" name="phone" id="phone_69878" placeholder="" class="" value="" autocomplete="tel" required="required"><br />
+</div>
+<div id="FieldContainer-company_69878" class="FieldContainer">
+<label for="company_69878">회사<span class="required">*</span></label>
+<input type="text" name="company" id="company_69878" placeholder="" class="" value="" autocomplete="on" required="required"><br />
+</div>
+<div id="FieldContainer-country_69878" class="FieldContainer">
+<label for="country_69878">국가<span class="required">*</span></label>
+<select name="country" id="country_69878" autocomplete="on" class="" required="required" data-type="country" data-default=""><option selected disabled value="">선택해주세요. </option>
+</select><br />
+</div>
+<div id="FieldContainer-subdivision_69878" class="FieldContainer">
+<div id="FieldOptionsContainer-subdivision_69878" data-dynamic="true" data-type="subdivision" data-name="subdivision"><label for="subdivision_69878">주/도/군*</label><select name="subdivision" id="subdivision_69878" data-type="subdivision" autocomplete="on" class=""></select><br /></div>
+</div>
+<div id="FieldContainer-postalcode_69878" class="FieldContainer">
+<label for="postalcode_69878">우편번호<span class="required">*</span></label>
+<input type="text" name="postalcode" id="postalcode_69878" value="" class="" required="required" list="postalcode-datalist" autocomplete="off">
+<datalist id="postalcode-datalist"></datalist>
+</div>
+<div id="FieldContainer-industrycategory_69878" class="FieldContainer">
+<div id="FieldOptionsContainer-industrycategory_69878" data-dynamic="true" data-type="select" data-name="industrycategory"><label for="industrycategory_69878">산업*</label>
+<select name="industrycategory" id="industrycategory_69878" class="" required="required" data-type="select">
+    <option value="" selected disabled>선택해주세요. </option>
+</select></div>
+</div>
+<div id="FieldContainer-industrysubsector_69878" class="FieldContainer">
+<div id="FieldOptionsContainer-industrysubsector_69878" data-dynamic="true" data-type="select" data-name="industrysubsector" data-parentformfield="industrycategory"><label for="industrysubsector_69878">하위 섹터*</label>
+<select name="industrysubsector" id="industrysubsector_69878" class="" required="required" data-type="select">
+    <option value="" selected disabled>선택해주세요. </option>
+</select></div>
+</div>
+<div id="FieldContainer-interestlevel_69878" class="FieldContainer">
+<div id="FieldOptionsContainer-interestlevel_69878" data-dynamic="true" data-type="select" data-name="interestlevel"><label for="interestlevel_69878">관심 수준*</label>
+<select name="interestlevel" id="interestlevel_69878" class="" required="required" data-type="select">
+    <option value="" selected disabled>선택해주세요. </option>
+</select></div>
+</div>
+<div id="FieldContainer-leadorigin_69878" class="FieldContainer">
+<label for="leadorigin_69878">저희를 어떻게 알게 되셨나요?</label>
+<select name="leadorigin" id="leadorigin_69878" class="" data-type="select">
+    <option value="" selected disabled>선택해주세요. </option>
+    <option value="Trade Show or Event">무역 박람회 또는 이벤트</option>
+    <option value="Website">웹사이트</option>
+    <option value="Search Engine">검색 엔진</option>
+    <option value="Social Media">소셜 미디어</option>
+    <option value="Advert">광고</option>
+    <option value="Other">기타</option>
+</select>
+</div>
+<div id="FieldContainer-gdprconsent_69878" class="FieldContainer">
+<div class="checkbox fieldoptioncontainer">
+<label><input type="checkbox" name="gdprconsent[]" id="gdprconsent_69878-1" value="1" class="" /><span>이 양식을 작성함으로써 이용 약관과 개인정보 보호정책에 동의합니다.</span></label>
+</div>
+</div>
+<div id="FieldContainer-gdprmarketing_69878" class="FieldContainer">
+<div class="checkbox fieldoptioncontainer">
+<label><input type="checkbox" name="gdprmarketing[]" id="gdprmarketing_69878-1" value="1" class="" /><span>Cimatron의 최신정보를 받아볼 수 있도록 수신동의를 해주세요. 언제든지 수신 거부할 수 있습니다.</span></label>
+</div>
+</div>
+<input type="hidden" name="utm_source" id="utm_source_69878" value="">
+<input type="hidden" name="utm_medium" id="utm_medium_69878" value="">
+<input type="hidden" name="utm_campaign" id="utm_campaign_69878" value="">
+<input type="hidden" name="utm_content" id="utm_content_69878" value="">
+<input type="hidden" name="utm_term" id="utm_term_69878" value="">
+<script nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw">
+// Field scripts start
+
+
+                                function GetCountries_country_69878() {
+                                    var language_code = 'ko';
+                                    var structMyParams = {
+                                        label: '국가'
+                                        ,attribs: {
+                                            id: 'country_69878'
+                                            ,name: 'country'
+                                        }
+                                        ,url: '/common/class.countries.php?method=getCountriesForSelect'
+                                        ,params: {
+                                            language_code: language_code
+                                            ,default: ''
+                                            ,required: true
+        }
+
+                                        //,complete: ShowOrHideFieldset('country_69878')
+
+                                    }
+                                    AJAXSelect(structMyParams);
+                                }
+                                
+                                $(document).ready(function() {
+                                    $('#country_69878').on('focus', function(e) {
+                                        if (document.querySelector('#country_69878').length <=3) { // Set to 3, because some country fields have Please choose, Any, and default country as option
+                                            GetCountries_country_69878();
+                                        }
+                                    })
+                                });
+                                
+                                function Update_subdivision_69878(defaultSubdivision) {
+                                    var country_code = $('#country_69878').val();
+                                    var structMyParams = {
+                                        label: '주/도/군'
+                                        ,attribs: {
+                                            id: 'subdivision_69878'
+                                            ,name: 'subdivision'
+                                        }
+                                        ,url: '/common/class.countries.php?method=getSubdivisionsForSelect'
+                                        ,params: {
+                                            country_code: country_code
+                                            ,default: defaultSubdivision
+                                            ,required: true
+        }
+
+                                        ,complete: ShowOrHideFieldset('subdivision_69878')
+
+                                    }
+                                    AJAXSelect(structMyParams);
+                                }
+                                
+                                    $(document).ready(function() {
+                                        Update_subdivision_69878('');
+                                        $('#country_69878').on('change', function(e) {
+                                            Update_subdivision_69878();
+                                        })
+                                    });
+                                    
+                                function GetPostalCodesForDataList_postalcode_69878() {
+                                    var dataList = document.getElementById('postalcode-datalist');
+                                    dataList.innerHTML = ''; // Clear all datalist options to start, before populating
+                                    $.ajax({
+                                        type: 'post'
+                                        ,url: '/common/class.countries.php?method=getPostalCodesForDataList'
+                                        ,data: {
+                                            'country': $('#country_69878').val()
+                                            ,'subdivision': $('#subdivision_69878').val()
+                                        }
+                                        ,cache: false
+                                        ,success: function (response) {
+                                            response = JSON.parse(response);
+                                            response.forEach((postcode) => {
+                                                var option = document.createElement('option');
+                                                option.value = postcode[0];
+                                                option.label = postcode[1];
+                                                dataList.appendChild(option);
+                                            });
+                                        }
+                                    })
+                                }
+                                
+                                    //Event delegation: $(document).ready(function() does not work when detecting events on dynamically created elements. See https://stackoverflow.com/questions/203198/event-binding-on-dynamically-created-elements
+                                    $('#myForm-69878').on('change', '[name^="country"]', function(event) {
+                                        GetPostalCodesForDataList_postalcode_69878();
+                                    })
+                                    
+                                    //Event delegation: $(document).ready(function() does not work when detecting events on dynamically created elements. See https://stackoverflow.com/questions/203198/event-binding-on-dynamically-created-elements
+                                    $('#myForm-69878').on('change', '[name^="subdivision"]', function(event) {
+                                        GetPostalCodesForDataList_postalcode_69878();
+                                    })
+                                    
+                                $(document).ready(function() {
+                                    GetPostalCodesForDataList_postalcode_69878();
+                                })
+                                function Update_industrycategory_69878() {
+    var structMyParams = {
+        fieldDefinitionJSON: '{"name":"industrycategory","label":"\uc0b0\uc5c5","type":"select","required":true,"csvfile":"industry-categories.csv","childformfield":"industrysubsector","valuecolumn":"id","displaycolumn":"ko","pleaseChooseText":"\uc120\ud0dd\ud574\uc8fc\uc138\uc694. ","placeholder":"","id":"industrycategory_69878","class":"","default":""}'
+        ,language: 'ko'
+        ,htmlformID: 'myForm-69878'
+        ,uniqueid: '69878'
+        ,formid: 'E0DB52EC-DC2D-49F5-815B4435AAAD8196'
+        ,callback: 'Update_industrysubsector_69878'
+        }
+    GetSelectFromCSV(structMyParams);
+}
+
+
+                                    $(document).ready(function() {
+                                        $('#industrycategory_69878').on('focus', function(e) {
+                                            if (document.querySelector('#industrycategory_69878').length <=1) {
+                                                Update_industrycategory_69878();
+                                            }
+                                        })
+                                    });
+                                    function Update_industrysubsector_69878() {
+    var structMyParams = {
+        fieldDefinitionJSON: '{"name":"industrysubsector","label":"\ud558\uc704 \uc139\ud130","type":"select","required":true,"csvfile":"industry-segments.csv","parentformfield":"industrycategory","parentcolumn":"parent-id","valuecolumn":"id","displaycolumn":"ko","pleaseChooseText":"\uc120\ud0dd\ud574\uc8fc\uc138\uc694. ","placeholder":"","id":"industrysubsector_69878","class":"","default":""}'
+        ,language: 'ko'
+        ,htmlformID: 'myForm-69878'
+        ,uniqueid: '69878'
+        ,formid: 'E0DB52EC-DC2D-49F5-815B4435AAAD8196'
+        }
+    GetSelectFromCSV(structMyParams);
+}
+
+$('#myForm-69878').on('change', '[name="industrycategory"]', function(event) {
+    Update_industrysubsector_69878();
+})
+
+$('#myForm-69878').on('change', '[name="industrycategory[]"]', function(event) {
+    Update_industrysubsector_69878();
+})
+
+
+                                    $(document).ready(function() {
+                                        $('#industrysubsector_69878').on('focus', function(e) {
+                                            if (document.querySelector('#industrysubsector_69878').length <=1) {
+                                                Update_industrysubsector_69878();
+                                            }
+                                        })
+                                    });
+                                    function Update_interestlevel_69878() {
+    var structMyParams = {
+        fieldDefinitionJSON: '{"name":"interestlevel","label":"\uad00\uc2ec \uc218\uc900","type":"select","required":true,"csvfile":"interest-level.csv","valuecolumn":"en","displaycolumn":"ko","pleaseChooseText":"\uc120\ud0dd\ud574\uc8fc\uc138\uc694. ","placeholder":"","id":"interestlevel_69878","class":"","default":""}'
+        ,language: 'ko'
+        ,htmlformID: 'myForm-69878'
+        ,uniqueid: '69878'
+        ,formid: 'E0DB52EC-DC2D-49F5-815B4435AAAD8196'
+        }
+    GetSelectFromCSV(structMyParams);
+}
+
+
+                                    $(document).ready(function() {
+                                        $('#interestlevel_69878').on('focus', function(e) {
+                                            if (document.querySelector('#interestlevel_69878').length <=1) {
+                                                Update_interestlevel_69878();
+                                            }
+                                        })
+                                    });
+                                    // Field scripts end
+</script>
+<script nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw">
+//Validation scripts start
+
+                function datalistValidator(value,element) {
+                    var dataList = document.getElementById(element.getAttribute('list'));
+                    var arrayValues = [];
+                    for (var option of dataList.options) {
+                        arrayValues.push(option.value);
+                    }
+                    if (arrayValues.length < 1) {
+                        return true;
+                    }
+                    return arrayValues.includes(value);
+                }
+
+                $(document).ready(function() {
+                    jQuery.validator.addMethod('isPostalCode', function(value, element) {
+                        return this.optional(element) || (datalistValidator(value, element));
+                    }, getLocalText('Must be a valid postal code'));
+                });
+                $(document).ready(function() {
+    $('#myForm-69878').validate({
+
+                submitHandler: function(form, e) {
+                
+
+                if (isSubmitting) {
+                    console.log('Submit denied');
+                    e.preventDefault();
+                    return;
+                }
+                console.log('Submit allowed');
+                isSubmitting = true;
+                            enableForms();
+            var formData = new FormData(form);
+            formData.append('nonce', 'UUZ5YnFkN2t6cEgrQldCQ3RKYWVod200bVhXZndzOVEzQlJySVRHVWFWQVNNcUZ5');
+
+                $.ajax({
+                    type: 'post'
+                    ,url: '/forms/form-handler.php'
+                    ,data: formData
+                    ,cache: false
+                    ,processData : false
+                    ,contentType : false
+                    ,success: function (response) {
+                        $('#myForm-69878-container').html(response);
+                    }
+                    ,complete: function (response) {
+                        isSubmitting = false; // reset isSubmitting flag, used to prevent multiple submissions
+                        scrollToElement('#myForm-69878-container', 200);
+                    }
+                })
+                        }
+        ,invalidHandler: function(form) {
+            hideLoadingBar();
+        }
+        ,rules: {
+			firstname: {required: true}
+			,lastname: {required: true}
+			,email: {required: true, email: true}
+			,phone: {required: true}
+			,company: {required: true}
+			,country: {required: true}
+			,subdivision: {required: true}
+			,postalcode: {required: true, isPostalCode: true}
+			,industrycategory: {required: true}
+			,industrysubsector: {required: true}
+			,interestlevel: {required: true}
+			,'gdprconsent[]': {required: true, minlength : 1}
+			,'gdprmarketing[]': {minlength : 1}
+		}
+        ,errorPlacement: function(error, element) {
+            if ( ( element.is(':radio') ) || ( element.is(':checkbox') ) )  {
+                error.appendTo( element.parents('.fieldoptioncontainer') );
+            }
+            else { // default behaviour
+                error.insertAfter( element );
+            }
+        }
+    });
+});
+//Validation scripts end
+</script>
+<p class="small"><a href="../en/about-this-site/legal-notice.html" target="_blank">이용 약관</a> | <a href="../en/about-this-site/privacy.html" target="_blank">개인정보취급방침</a></p><p><button type="submit">전송</button></p><script src="../forms/phpfp/fp.js" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script>
+<span class="hidden"><label class="hidden">Leave this field empty<input id="fp69d4d25d175b1" type="text" name="formfield1234567894" value="" /></label></span>
+<input type="hidden" name="st" value="1775570086" />
+<input id="fp69d4d25d175b5" type="hidden" name="formfield1234567891" class="cffp_mm" value="" />
+<input id="fp69d4d25d175b6" type="hidden" name="formfield1234567892" class="cffp_kp" value="" />
+</form></div>
+</section>
+</section>
+<style nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw">
+main section span.material-icons {
+    font-size: 50px
+}
+</style><!-- PAGE BODY END -->
+<script src="../scripts/jquery/jquery-ui-1.13.2/ui/jquery-ui.min.js" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script>
+<link rel="stylesheet" href="../scripts/jquery/jquery-ui-1.13.2/ui/themes/base/jquery-ui.css" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw">
+
+    <script src="../scripts/i18n/3/ko.js" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script>
+    <script src="../scripts/jquery/jquery-validation-1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script><script src="../scripts/jquery/jquery-validation-1.19.3/additional-methods.min.js" integrity="sha512-XZEy8UQ9rngkxQVugAdOuBRDmJ5N4vCuNXCh8KlniZgDKTvf7zl75QBtaVG1lEhMFe2a2DuA22nZYY+qsI2/xA==" crossorigin="anonymous" referrerpolicy="no-referrer" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script><script src="../scripts/jquery/jquery-ui-1.13.2/ui/i18n/datepicker-ko.js" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script>
+<script src="../scripts/jquery/jquery-validation-1.19.3/src/localization/messages_ko.js" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script>
+<script src="../forms/form-scripts.js" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script>
+<script src="../scripts/bootstrap/5.3.5/js/bootstrap.bundle.min.js" integrity="sha256-ORBCb//WwUWwNh+EjsvO97snO3mAJ1+jhMzrlPBTYSQ=" crossorigin="anonymous" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw"></script>
+<link defer rel="stylesheet" href="../styles/print-styles.css" type="text/css" media="print" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw" />
+<link rel="stylesheet" id="accessible-stylesheet" href="../styles/accessible.css" type="text/css" disabled="" nonce="YWRUU1cyU1k1R0hNMDFwcnphQzNzUUFBQUMw" /><script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://www.cimatron.com#organization",
+            "name": "Cimatron",
+            "url": "https://www.cimatron.com/",
+            "availableLanguage": [
+                "en",
+                "de",
+                "es",
+                "fr",
+                "it",
+                "nl",
+                "pt",
+                "tr",
+                "he",
+                "ja",
+                "ko",
+                "zh-cn"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.cimatron.com/images/default/cimatron-logo-2025.svg",
+                "width": 279,
+                "height": 65
+            },
+            "sameAs": [
+                "https://www.youtube.com/user/CimatronGroup",
+                "https://x.com/cimatron",
+                "https://www.facebook.com/CimatronE",
+                "https://www.linkedin.com/company/cimatron"
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.cimatron.com#website",
+            "url": "https://www.cimatron.com/",
+            "name": "Cimatron",
+            "publisher": {
+                "@id": "https://www.cimatron.com#organization"
+            },
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.cimatron.com/ko/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        },
+        {
+            "@type": "WebPage",
+            "url": "https://www.cimatron.com/ko/handling-complex-geometry-materials",
+            "description": "Cimatron은 복잡한 형상(지오메트리)과 까다로운 재료를 효과적으로 처리할 수 있는 고급 설계, 가공 및 시뮬레이션 도구를 제공하여 정밀도와 효율성을 갖춘 고품질 생산을 보장합니다.",
+            "inLanguage": "ko",
+            "@id": "https://www.cimatron.com/ko/handling-complex-geometry-materials#main",
+            "name": "복잡한 형상 및 난삭재 가공 솔루션",
+            "dateModified": "2025-09-10T07:57:32+00:00",
+            "primaryImageOfPage": {
+                "@type": "ImageObject",
+                "url": "https://www.cimatron.com/collateral/3/images/handling-complex-geometry-materials-hero.jpg",
+                "width": 1920,
+                "height": 1080
+            }
+        }
+    ]
+}
+</script>
+    </main>
+
+    <footer>
+    
+
+    <section id="site-quick-links" class="full-width">
+    <section>
+    <div class="flex-container">
+    <div>
+        <p><strong>팔로우하기</strong></p>
+
+    <div class="social-container"><ul class="social-icons"><li><a href="https://www.youtube.com/user/CimatronGroup" target="_blank" title="youtube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"></path></svg></a></li>
+    <li><a href="https://x.com/cimatron" target="_blank" title="x"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0z M 13.274 11.265L 18.39 5.781H 17.207L 12.78 10.63L 9.308 5.781H 5.28L 10.436 13.295L 5.28 19.094H 6.463L 10.984 13.727L 14.718 19.094H 18.72L 13.274 11.265H 13.274ZM 11.725 13.26L 11.214 12.56L 7.152 6.744H 8.943L 12.189 11.442L 12.701 12.142L 17.207 18.094H 15.416L 11.725 13.261V 13.26Z"/></svg></a></li>
+    <li><a href="https://www.facebook.com/CimatronE" target="_blank" title="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"></path></svg></a></li>
+    <li><a href="https://www.linkedin.com/company/cimatron" target="_blank" title="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"></path></svg></a></li>
+    </ul></div>
+
+    </div>
+    <div class="border-inline-start">
+        <ul>
+            <li><strong>왜 Cimatron인가?</strong></li>
+            <li><a href="time-to-market-reduction-first-time-right.html">한 번에 정확하고 빠르게 제품 생산</a></li>
+            <li><a href="overcoming-skilled-labor-shortage-automation.html">자동화를 통한 인력 문제 해결</a></li>
+            <li><a href="handling-complex-geometry-materials.html">복잡한 형상 및 난삭재 가공 솔루션</a></li>
+            <li><a href="integrating-data-flow-collaboration.html">데이터 연계 및 협업 강화</a></li>
+        </ul>
+        <ul>
+            <li><strong>주요 솔루션</strong></li>
+            <li><a href="whats-new.html">Cimatron 최신 버전</a></li>
+            <li><a href="cimatron-mold.html">금형설계</a></li>
+            <li><a href="cimatron-die.html">프레스 금형설계</a></li>
+            <li><a href="cimatron-electrodes.html">전극 설계</a></li>
+            <li><a href="cimatron-nc-programming.html">NC 프로그래밍</a></li>
+        </ul>
+    </div>
+    <div class="border-inline-start">
+        <ul>
+            <li><strong>미디어 센터</strong></li>
+            <li><a href="brochures.html">브로슈어 다운로드</a></li>
+            <li><a href="customer-stories.html">고객 성공 사례 모음</a></li>
+            <li><a href="product-videos.html">최신 제품 소개 영상 보기</a></li>
+            <li><a href="video-testimonials.html">고객 후기 보기</a></li>
+            <li><a href="tutorials.html">튜토리얼 보기</a></li>
+        </ul>
+        <ul>
+        <li><strong>뉴스 및 이벤트</strong></li>
+            <li><a href="news.html">최신 뉴스</a></li>
+            <li><a href="events.html">예정된 이벤트</a></li>
+            <li><a href="webinars.html">웨비나</a></li>
+        </ul>
+    </div>
+    <div class="border-inline-start">
+        <ul>
+        <li><strong>빠른 지원 및 문의</strong></li>
+            <li><a href="support.html">기술 지원 신청하기</a></li>
+            <li><a href="cimatron-copilot-landing.html">Cimatron Copilot - AI 지원</a></li>
+            <li><a href="contact-us.html">제품 문의하기</a></li>
+            <li><a href="request-trial-demo.html">데모 요청하기</a></li>
+            <li><a href="request-trial-demo.html">무료 체험판 신청</a></li>
+            <li><a href="reseller-finder.html">리셀러 찾기</a></li>
+        </ul>
+        <ul>
+        <li><strong>Cimatron 소개</strong></li>
+        <li><a href="https://sandvik.wd3.myworkdayjobs.com/cimatron-jobs" target="_blank">채용</a></li>
+        </ul>
+    </div>
+    </div>
+    </section>
+    </section>
+    <section class="theme-footer full-width">
+    <div class="grid-container center middle">
+        <div class="footer-logo">
+            <a href="../ko.html">
+                <img src="../images/default/cimatron-logo-white-2025.svg" width="199" height="50" alt="Cimatron footer logo" loading="lazy">
+            </a>
+        </div>
+        <div>
+                        <div class="grid-container center middle">
+                <div>
+                    <div class="footer-link-container">
+                        <!-- ko -->
+                        <ul class="footer-link">
+                                                                <li><a href="../en/about-this-site/privacy.html" target="about-this-site">개인정보취급방침</a></li>
+                                    <li><button class="as-link" data-function="Optanon.ToggleInfoDisplay">쿠키 설정</button></li>
+                                    <li><a href="../en/about-this-site/cookie-privacy-policy.html" target="about-this-site">쿠키 세부정보</a></li>
+                                    <li><a href="../en/about-this-site/legal-notice.html" target="about-this-site">이용 약관</a></li>
+                                                                        <li><a href="sitemap.html">사이트맵</a></li>
+                                                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container center middle">
+                <div class="copyright-text">저작권 © 2026 | Cimatron | 판권소유</div>
+            </div>
+        </div>
+        <div class="footer-part-of-sandvik">
+            <a href="https://www.manufacturingsolutions.sandvik/en/" target="_blank">
+                <img src="../images/default/part-of-sandvik_logo_white.svg" width="141" height="35" alt="Part of Sandvik group logo" loading="lazy">
+            </a>
+        </div>
+    </div>
+</section>
+
+<nav id="small-screen-menu-nav" class="hidden">
+    <div id="small-screen-menu">
+        <div><a href="../ko.html"><img src="../images/icons/iconmonstr-home-7.svg" alt="Home" class="icon svg-filter-color-theme-color-5"></a></div>
+        <div><a href="user/preferences.html"><img src="../images/icons/iconmonstr-gear-2.svg" alt="Preferences" class="icon svg-filter-color-theme-color-5"></a></div>
+        <div><a href="search.html"><img src="../images/icons/iconmonstr-magnifier-lined.svg" alt="Search" class="icon svg-filter-color-theme-color-5"></a></div>
+        <div><a tabindex="0" id="hamburger-toggler" class="icon"><img src="../images/icons/iconmonstr-menu-lined.svg" alt="Menu" class="icon svg-filter-color-theme-color-5"></a></div>
+    </div>
+</nav>
+
+<button id="scrollToTopButton" data-function="topFunction" title="맨 위로 스크롤"><img src="../images/icons/iconmonstr-arrow-up-alt-filled.svg" alt="Scroll to top"></button>
+
+    </footer>
+
+        
+
+</body>
+
+
+<!-- Mirrored from www.cimatron.com/ko/handling-complex-geometry-materials by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Apr 2026 10:30:38 GMT -->
+</html>

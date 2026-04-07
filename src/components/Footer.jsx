@@ -21,35 +21,35 @@ const Footer = () => {
           <div>
             <h3 className="footer-title">Quick Links</h3>
             <div className="footer-links">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#products">Products</a>
-              <a href="#services">Services</a>
-              <a href="#resources">Resources</a>
+              <a href="/#home">Home</a>
+              <a href="/#about">About</a>
+              <a href="/#products">Products</a>
+              <a href="/#services">Services</a>
+              <a href="/#resources">Resources</a>
             </div>
           </div>
 
           <div>
             <h3 className="footer-title">Products</h3>
             <div className="footer-links">
-              <a href="#products">Mold Design</a>
-              <a href="#products">Die Design</a>
-              <a href="#products">NC Programming</a>
-              <a href="#products">Cimatron CAD</a>
-              <a href="#products">Cimatron CAD-AI</a>
-              <a href="#products">Altair Inspire Form</a>
-              <a href="#products">Altair Inspire Mold</a>
+              <a href="/#products">Mold Design</a>
+              <a href="/#products">Die Design</a>
+              <a href="/#products">NC Programming</a>
+              <a href="/#products">Cimatron CAD</a>
+              <a href="/#products">Cimatron CAD-AI</a>
+              <a href="/#products">Altair Inspire Form</a>
+              <a href="/#products">Altair Inspire Mold</a>
             </div>
           </div>
 
           <div>
             <h3 className="footer-title">Services</h3>
             <div className="footer-links">
-              <a href="#services">Design Engineering</a>
-              <a href="#services">Design Validation</a>
-              <a href="#services">Manufacturing</a>
-              <a href="#services">Automation</a>
-              <a href="#services">Testing</a>
+              <a href="/#services">Design Engineering</a>
+              <a href="/#services">Design Validation</a>
+              <a href="/#services">Manufacturing</a>
+              <a href="/#services">Automation</a>
+              <a href="/#services">Testing</a>
             </div>
           </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
               <a href="mailto:info@dreampt.example">info@dreampt.example</a>
               <a href="tel:+910000000000">+91 00000 00000</a>
               <p>No. 1, 3rd Main, 2nd Stage, Yeshwantapura Industrial Suburb, Goraguntepalya, J.B. Kaval, Bengaluru – 560022, Karnataka, India</p>
-              <a href="#contact">Request a Free Consultation</a>
+              <a href="/#contact">Request a Free Consultation</a>
             </div>
           </div>
         </div>

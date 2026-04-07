@@ -1,0 +1,34 @@
+import React from 'react';
+import HeroSection from '../components/HeroSection';
+import CustomersMarquee from '../components/CustomersMarquee';
+import AboutSnapshot from '../components/AboutSnapshot';
+import TrustStrip from '../components/TrustStrip';
+import VideoOverview from '../components/VideoOverview';
+import Benefits from '../components/Benefits';
+import Products from '../components/Products';
+import ServicesOverview from '../components/ServicesOverview';
+import EngineeringServices from '../components/EngineeringServices';
+import Process from '../components/Process';
+import Industries from '../components/Industries';
+import FinalCTA from '../components/FinalCTA';
+
+const Home = () => {
+  return (
+    <main id="home">
+      <HeroSection />
+      <CustomersMarquee />
+      <AboutSnapshot />
+      <TrustStrip />
+      <VideoOverview />
+      <Benefits />
+      <Products />
+      <ServicesOverview />
+      <EngineeringServices />
+      <Process />
+      <Industries />
+      <FinalCTA />
+    </main>
+  );
+};
+
+export default Home;

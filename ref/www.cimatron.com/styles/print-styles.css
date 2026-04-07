@@ -1,0 +1,140 @@
+/* override styles when printing */
+* {
+    widows: 2 !important;
+    orphans: 2 !important;
+    color: black !important;
+    background-color: white !important;
+    position:relative !important;
+}
+body {
+    font-size: 12pt;
+}
+div.hero-container {
+    max-height: unset;
+    overflow: hidden;
+    display: block;
+    align-items: unset;
+}
+main {
+    margin: 0 1em 1em 1em !important;
+    position: relative !important;
+}
+section {
+    position: relative !important;
+    all:unset !important;
+    margin:0 5px;
+    padding: 0;
+}
+h1, h2, h3, h4, h5 {
+    break-before: auto !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    break-after: avoid !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    break-inside: avoid !important; /* or 'auto' */  
+}
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size: 1.3rem;
+}
+h4 {
+    font-size: 1.2rem;
+}
+h5 {
+    font-size: 1.1rem;
+}
+p {
+    break-before: auto !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    break-after: auto !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    break-inside: avoid !important; /* or 'auto' */    
+}
+a {
+    all:unset !important;
+    text-decoration:underline !important;
+    /*
+    display:none !important;
+    */
+}
+a::after{
+    content: " (" attr(href) ") ";
+}
+div.hero-container div.hero-text {
+    color: #000000;
+    margin:0 5px;
+    font-size:0.6em;
+    text-align:center;
+}
+div.grid-container {
+    grid-template-columns: unset;
+}
+div.grid-container {
+    display: block !important;
+}
+div.flex-container {
+    display: block !important;
+}
+div.grid-card {
+    padding: 0;
+    border: none;
+    font-size: unset;
+    background-color: unset;    
+}
+.clamp {
+    -webkit-line-clamp: unset;
+}
+img {
+    /*
+    display: block !important;
+    max-width: 50% !important;
+    width: 50%;
+    margin-block-end: 0.25cm;
+    */
+    break-before: auto !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    break-after: auto !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    break-inside: avoid !important; /* or 'auto' */    
+}    
+table {
+    page-break-inside: avoid !important;
+}
+table.styled {
+    box-shadow: none !important;    
+    border-collapse: unset;
+    border-spacing: unset;    
+    border: 1px solid #cccccc;
+}
+table.styled th, table.styled td
+{
+    padding: 0.2rem;
+    border: 1px solid #cccccc;
+}
+.noprint {
+    display:none;
+}
+#ot-sdk-btn-floating {
+    display: none !important;
+}
+nav,
+#searchWindow,
+section.theme-stripe-footer,
+section.theme-footer,
+div.container-fluid,
+header div#header-container,
+header div#header-container-responsive,
+div#header-banner,
+div#admin-bar,
+div.ytVideoContainer,
+div.ytContainer,
+img.logo-image,
+img.hero,
+video.hero,
+form,
+video,
+button#scrollToTopButton,
+#deepchat-bubble,
+#deepchat-widget,
+h1::before, h2::before, h3::before, h4::before, h5::before
+{
+    display: none !important;
+}

@@ -1,18 +1,9 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import CustomersMarquee from './components/CustomersMarquee';
-import AboutSnapshot from './components/AboutSnapshot';
-import TrustStrip from './components/TrustStrip';
-import VideoOverview from './components/VideoOverview';
-import Benefits from './components/Benefits';
-import Products from './components/Products';
-import ServicesOverview from './components/ServicesOverview';
-import EngineeringServices from './components/EngineeringServices';
-import Process from './components/Process';
-import Industries from './components/Industries';
-import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import MoldDesign from './pages/MoldDesign'; // We will create this next
 import './index.css';
 
 const App = () => {
@@ -22,20 +13,10 @@ const App = () => {
       
       <Header />
       
-      <main id="home">
-        <HeroSection />
-        <CustomersMarquee />
-        <AboutSnapshot />
-        <TrustStrip />
-        <VideoOverview />
-        <Benefits />
-        <Products />
-        <ServicesOverview />
-        <EngineeringServices />
-        <Process />
-        <Industries />
-        <FinalCTA />
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products/mold-design" element={<MoldDesign />} />
+      </Routes>
       
       <Footer />
     </div>

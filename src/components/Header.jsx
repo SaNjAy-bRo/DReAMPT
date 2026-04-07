@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -77,13 +78,13 @@ const Header = () => {
 
       <div className="w-full">
         <div className={`header-shell flex items-center justify-between border-b border-slate-200/80 bg-white px-6 py-4 transition-all duration-300 lg:px-8 ${isSticky ? 'scrolled' : ''}`}>
-          <a href="#home" className="flex items-center gap-3" aria-label="DReAMPT Mecha System Pvt. Ltd. home">
+          <a href="/#home" className="flex items-center gap-3" aria-label="DReAMPT Mecha System Pvt. Ltd. home">
             <img src="/images/DReAMPT_darklogo.png" alt="DReAMPT Mecha System Pvt. Ltd. logo" className="h-11 w-auto sm:h-12" />
           </a>
 
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary navigation">
-            <a className="nav-link" href="#home">Home</a>
-            <a className="nav-link" href="#about">About</a>
+            <a className="nav-link" href="/#home">Home</a>
+            <a className="nav-link" href="/#about">About</a>
 
             <div 
               className={`nav-dropdown group relative ${openDropdown === 'products' ? 'open' : ''}`} 
@@ -95,20 +96,20 @@ const Header = () => {
                 Products <span className="dropdown-arrow">+</span>
               </button>
               <div className="dropdown-panel" role="menu">
-                <a href="#products" role="menuitem">Mold Design</a>
-                <a href="#products" role="menuitem">Die Design</a>
-                <a href="#products" role="menuitem">Electrodes Design</a>
-                <a href="#products" role="menuitem">NC Programming</a>
-                <a href="#products" role="menuitem">Cimatron Viewer</a>
-                <a href="#products" role="menuitem">Cimatron CAD</a>
-                <a href="#products" role="menuitem">Cimatron CAD-AI</a>
-                <a href="#products" role="menuitem">Cimatron DieQuote</a>
-                <a href="#products" role="menuitem">Altair Inspire Form</a>
-                <a href="#products" role="menuitem">Altair Inspire Mold</a>
+                <Link to="/products/mold-design" role="menuitem" onClick={() => setOpenDropdown(null)}>Mold Design</Link>
+                <a href="/#products" role="menuitem">Die Design</a>
+                <a href="/#products" role="menuitem">Electrodes Design</a>
+                <a href="/#products" role="menuitem">NC Programming</a>
+                <a href="/#products" role="menuitem">Cimatron Viewer</a>
+                <a href="/#products" role="menuitem">Cimatron CAD</a>
+                <a href="/#products" role="menuitem">Cimatron CAD-AI</a>
+                <a href="/#products" role="menuitem">Cimatron DieQuote</a>
+                <a href="/#products" role="menuitem">Altair Inspire Form</a>
+                <a href="/#products" role="menuitem">Altair Inspire Mold</a>
               </div>
             </div>
 
-            <a className="nav-link" href="#services">Services</a>
+            <a className="nav-link" href="/#services">Services</a>
 
             <div 
               className={`nav-dropdown group relative ${openDropdown === 'resources' ? 'open' : ''}`} 
@@ -120,17 +121,17 @@ const Header = () => {
                 Resources <span className="dropdown-arrow">+</span>
               </button>
               <div className="dropdown-panel" role="menu">
-                <a href="#resources" role="menuitem">Blog</a>
-                <a href="#resources" role="menuitem">News &amp; Events</a>
-                <a href="#resources" role="menuitem">Case Study</a>
+                <a href="/#resources" role="menuitem">Blog</a>
+                <a href="/#resources" role="menuitem">News &amp; Events</a>
+                <a href="/#resources" role="menuitem">Case Study</a>
               </div>
             </div>
 
-            <a className="nav-link" href="#contact">Contact</a>
+            <a className="nav-link" href="/#contact">Contact</a>
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <a href="#contact" className="btn-primary">Request a Free Consultation</a>
+            <a href="/#contact" className="btn-primary">Request a Free Consultation</a>
           </div>
 
           <div className="flex items-center gap-3 lg:hidden">
@@ -149,41 +150,41 @@ const Header = () => {
 
         <div id="mobile-menu" className="mobile-menu border-b border-slate-200/80 bg-white p-5 shadow-soft lg:hidden" hidden={!isMobileMenuOpen}>
           <div className="space-y-2">
-            <a className="mobile-link" href="#home" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
-            <a className="mobile-link" href="#about" onClick={() => setIsMobileMenuOpen(false)}>About</a>
+            <a className="mobile-link" href="/#home" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
+            <a className="mobile-link" href="/#about" onClick={() => setIsMobileMenuOpen(false)}>About</a>
 
             <details className="mobile-accordion">
               <summary>Products <span className="dropdown-arrow">+</span></summary>
               <div className="mobile-submenu" onClick={() => setIsMobileMenuOpen(false)}>
-                <a href="#products">Mold Design</a>
-                <a href="#products">Die Design</a>
-                <a href="#products">Electrodes Design</a>
-                <a href="#products">NC Programming</a>
-                <a href="#products">Cimatron Viewer</a>
-                <a href="#products">Cimatron CAD</a>
-                <a href="#products">Cimatron CAD-AI</a>
-                <a href="#products">Cimatron DieQuote</a>
-                <a href="#products">Altair Inspire Form</a>
-                <a href="#products">Altair Inspire Mold</a>
+                <Link to="/products/mold-design" onClick={() => setIsMobileMenuOpen(false)}>Mold Design</Link>
+                <a href="/#products">Die Design</a>
+                <a href="/#products">Electrodes Design</a>
+                <a href="/#products">NC Programming</a>
+                <a href="/#products">Cimatron Viewer</a>
+                <a href="/#products">Cimatron CAD</a>
+                <a href="/#products">Cimatron CAD-AI</a>
+                <a href="/#products">Cimatron DieQuote</a>
+                <a href="/#products">Altair Inspire Form</a>
+                <a href="/#products">Altair Inspire Mold</a>
               </div>
             </details>
 
-            <a className="mobile-link" href="#services" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
+            <a className="mobile-link" href="/#services" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
 
             <details className="mobile-accordion">
               <summary>Resources <span className="dropdown-arrow">+</span></summary>
               <div className="mobile-submenu" onClick={() => setIsMobileMenuOpen(false)}>
-                <a href="#resources">Blog</a>
-                <a href="#resources">News &amp; Events</a>
-                <a href="#resources">Case Study</a>
+                <a href="/#resources">Blog</a>
+                <a href="/#resources">News &amp; Events</a>
+                <a href="/#resources">Case Study</a>
               </div>
             </details>
 
-            <a className="mobile-link" href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
+            <a className="mobile-link" href="/#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
           </div>
 
           <div className="mt-5">
-            <a href="#contact" className="btn-primary w-full justify-center text-center" onClick={() => setIsMobileMenuOpen(false)}>Request a Free Consultation</a>
+            <a href="/#contact" className="btn-primary w-full justify-center text-center" onClick={() => setIsMobileMenuOpen(false)}>Request a Free Consultation</a>
           </div>
         </div>
       </div>
