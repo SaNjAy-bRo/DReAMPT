@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -32,13 +33,13 @@ const Footer = () => {
           <div>
             <h3 className="footer-title">Products</h3>
             <div className="footer-links">
-              <a href="/#products">Mold Design</a>
-              <a href="/#products">Die Design</a>
-              <a href="/#products">NC Programming</a>
-              <a href="/#products">Cimatron CAD</a>
-              <a href="/#products">Cimatron CAD-AI</a>
-              <a href="/#products">Altair Inspire Form</a>
-              <a href="/#products">Altair Inspire Mold</a>
+              <Link to="/products/mold-design">Mold Design</Link>
+              <Link to="/products/die-design">Die Design</Link>
+              <Link to="/products/nc-programming">NC Programming</Link>
+              <Link to="/products/cimatron-cad">Cimatron CAD</Link>
+              <Link to="/products/cimatron-cad-ai">Cimatron CAD-AI</Link>
+              <Link to="/products/altair-inspire-form">Altair Inspire Form</Link>
+              <Link to="/products/altair-inspire-mold">Altair Inspire Mold</Link>
             </div>
           </div>
 

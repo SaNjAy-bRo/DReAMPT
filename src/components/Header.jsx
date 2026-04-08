@@ -97,15 +97,15 @@ const Header = () => {
               </button>
               <div className="dropdown-panel" role="menu">
                 <Link to="/products/mold-design" role="menuitem" onClick={() => setOpenDropdown(null)}>Mold Design</Link>
-                <a href="/#products" role="menuitem">Die Design</a>
-                <a href="/#products" role="menuitem">Electrodes Design</a>
-                <a href="/#products" role="menuitem">NC Programming</a>
-                <a href="/#products" role="menuitem">Cimatron Viewer</a>
-                <a href="/#products" role="menuitem">Cimatron CAD</a>
-                <a href="/#products" role="menuitem">Cimatron CAD-AI</a>
-                <a href="/#products" role="menuitem">Cimatron DieQuote</a>
-                <a href="/#products" role="menuitem">Altair Inspire Form</a>
-                <a href="/#products" role="menuitem">Altair Inspire Mold</a>
+                <Link to="/products/die-design" role="menuitem" onClick={() => setOpenDropdown(null)}>Die Design</Link>
+                <Link to="/products/electrodes-design" role="menuitem" onClick={() => setOpenDropdown(null)}>Electrodes Design</Link>
+                <Link to="/products/nc-programming" role="menuitem" onClick={() => setOpenDropdown(null)}>NC Programming</Link>
+                <Link to="/products/cimatron-viewer" role="menuitem" onClick={() => setOpenDropdown(null)}>Cimatron Viewer</Link>
+                <Link to="/products/cimatron-cad" role="menuitem" onClick={() => setOpenDropdown(null)}>Cimatron CAD</Link>
+                <Link to="/products/cimatron-cad-ai" role="menuitem" onClick={() => setOpenDropdown(null)}>Cimatron CAD-AI</Link>
+                <Link to="/products/cimatron-diequote" role="menuitem" onClick={() => setOpenDropdown(null)}>Cimatron DieQuote</Link>
+                <Link to="/products/altair-inspire-form" role="menuitem" onClick={() => setOpenDropdown(null)}>Altair Inspire Form</Link>
+                <Link to="/products/altair-inspire-mold" role="menuitem" onClick={() => setOpenDropdown(null)}>Altair Inspire Mold</Link>
               </div>
             </div>
 
@@ -157,15 +157,15 @@ const Header = () => {
               <summary>Products <span className="dropdown-arrow">+</span></summary>
               <div className="mobile-submenu" onClick={() => setIsMobileMenuOpen(false)}>
                 <Link to="/products/mold-design" onClick={() => setIsMobileMenuOpen(false)}>Mold Design</Link>
-                <a href="/#products">Die Design</a>
-                <a href="/#products">Electrodes Design</a>
-                <a href="/#products">NC Programming</a>
-                <a href="/#products">Cimatron Viewer</a>
-                <a href="/#products">Cimatron CAD</a>
-                <a href="/#products">Cimatron CAD-AI</a>
-                <a href="/#products">Cimatron DieQuote</a>
-                <a href="/#products">Altair Inspire Form</a>
-                <a href="/#products">Altair Inspire Mold</a>
+                <Link to="/products/die-design" onClick={() => setIsMobileMenuOpen(false)}>Die Design</Link>
+                <Link to="/products/electrodes-design" onClick={() => setIsMobileMenuOpen(false)}>Electrodes Design</Link>
+                <Link to="/products/nc-programming" onClick={() => setIsMobileMenuOpen(false)}>NC Programming</Link>
+                <Link to="/products/cimatron-viewer" onClick={() => setIsMobileMenuOpen(false)}>Cimatron Viewer</Link>
+                <Link to="/products/cimatron-cad" onClick={() => setIsMobileMenuOpen(false)}>Cimatron CAD</Link>
+                <Link to="/products/cimatron-cad-ai" onClick={() => setIsMobileMenuOpen(false)}>Cimatron CAD-AI</Link>
+                <Link to="/products/cimatron-diequote" onClick={() => setIsMobileMenuOpen(false)}>Cimatron DieQuote</Link>
+                <Link to="/products/altair-inspire-form" onClick={() => setIsMobileMenuOpen(false)}>Altair Inspire Form</Link>
+                <Link to="/products/altair-inspire-mold" onClick={() => setIsMobileMenuOpen(false)}>Altair Inspire Mold</Link>
               </div>
             </details>
 
