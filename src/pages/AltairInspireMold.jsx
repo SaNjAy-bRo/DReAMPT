@@ -1,8 +1,41 @@
 import React from 'react';
 import Reveal from '../components/Reveal';
 
-const KeyBenefits = [];
-const GridFeatures = [];
+const KeyBenefits = [
+  {
+    "icon": "/images/default/cimatron-logo-2025.svg",
+    "title": "Automated Five-Step Workflow",
+    "desc": "A guided, intuitive process from CAD geometry import to final simulation analysis."
+  },
+  {
+    "icon": "/images/default/cimatron-logo-2025.svg",
+    "title": "Comprehensive Simulation",
+    "desc": "Supports deep analysis of core phases including filling, packing, cooling, and warpage."
+  },
+  {
+    "icon": "/images/default/cimatron-logo-2025.svg",
+    "title": "Early Defect Prediction",
+    "desc": "Detects potential manufacturing issues like air traps, weld lines, sink marks, and shrinkage before tooling begins."
+  },
+  {
+    "icon": "/images/default/cimatron-logo-2025.svg",
+    "title": "Democratized Simulation",
+    "desc": "Designed for usability by designers and product engineers, featuring automatic mesh generation and integration with structural analyses."
+  }
+];
+
+const GridFeatures = [
+  {
+    "img": "/images/products/altair-mold-feature.png",
+    "title": "Manufacturing-Driven Design (DfM)",
+    "desc": "Provides designers and engineers with the early feedback necessary to optimize part designs and mold configurations. Fast, accurate flow simulations ensure that part designs are robust and feasible, preventing costly late-stage iterations and optimizing final part quality."
+  },
+  {
+    "img": "/images/3/images/cimatron-die-01.jpg",
+    "title": "Integrated Material Data Center",
+    "desc": "Ensure the utmost precision in your simulations by utilizing a massive built-in database of injection molding material behaviors. Directly access validated material models without needing exhaustive manual inputs or specialized polymer physics knowledge."
+  }
+];
 const Capabilities = [];
 
 const AltairInspireMold = () => {
@@ -10,21 +43,21 @@ const AltairInspireMold = () => {
     <main className="pt-24 lg:pt-32 pb-0 bg-[#f9fafb]">
       <section className="relative bg-[#eceff3] pt-24 pb-20 lg:pt-32 lg:pb-32 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/images/default/cimatron-logo-2025.svg" alt="Background" className="w-full h-full object-cover opacity-[0.25] object-center" />
+          <img src="/images/products/altair-mold-hero.png" alt="Background" className="w-full h-full object-cover opacity-[0.25] object-center" />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/70 via-slate-800/40 to-transparent"></div>
         </div>
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-16">
           <div className="w-full lg:w-[55%]">
-            <Reveal><h1 className="font-heading text-4xl font-extrabold leading-tight text-white drop-shadow-lg sm:text-5xl lg:text-6xl tracking-tight">Inspire Mold</h1></Reveal>
+            <Reveal><h1 className="font-heading text-4xl font-extrabold leading-tight text-white drop-shadow-lg sm:text-5xl lg:text-6xl tracking-tight">Altair Inspire Mold</h1></Reveal>
             <Reveal delay={100}><div className="w-20 h-1.5 bg-brand-orange mt-6 rounded-full shadow-sm"></div></Reveal>
-            <Reveal delay={200}><h2 className="mt-8 text-2xl font-bold text-white drop-shadow-md lg:text-3xl">Inspire Mold</h2></Reveal>
-            <Reveal delay={300}><p className="mt-5 text-lg text-zinc-100 drop-shadow max-w-2xl font-medium leading-relaxed">Advanced engineering capabilities.</p></Reveal>
+            <Reveal delay={200}><h2 className="mt-8 text-2xl font-bold text-white drop-shadow-md lg:text-3xl">Simulation-Driven Design for Injection Molding</h2></Reveal>
+            <Reveal delay={300}><p className="mt-5 text-lg text-zinc-100 drop-shadow max-w-2xl font-medium leading-relaxed">Test, validate, and optimize injection-molded components early in the product development cycle. Identify air traps, sink marks, and warpage before a single piece of steel is cut.</p></Reveal>
             <Reveal delay={400}><div className="mt-10 flex flex-wrap gap-5"><a href="/#contact" className="btn-primary shadow-[0_8px_20px_rgb(242,106,33,0.3)] hover:shadow-[0_12px_25px_rgb(242,106,33,0.4)] text-base px-8 py-4">Request a Free Consultation</a></div></Reveal>
           </div>
           <div className="hidden lg:block w-full lg:w-[45%]">
             <Reveal delay={500} className="transform translate-x-4">
               <div className="rounded-2xl overflow-hidden shadow-[0_30px_60px_rgb(0,0,0,0.2)] border-[8px] border-white/90 bg-white">
-                <img src="/images/default/cimatron-logo-2025.svg" alt="Interface" className="w-full h-auto aspect-[4/3] object-cover" />
+                <img src="/images/products/altair-mold-hero.png" alt="Interface" className="w-full h-auto aspect-[4/3] object-cover" />
               </div>
             </Reveal>
           </div>

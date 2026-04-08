@@ -1,8 +1,41 @@
 import React from 'react';
 import Reveal from '../components/Reveal';
 
-const KeyBenefits = [];
-const GridFeatures = [];
+const KeyBenefits = [
+  {
+    "icon": "/images/default/cimatron-logo-2025.svg",
+    "title": "Instant Feasibility Analysis",
+    "desc": "Analyze part formability in seconds early in the design cycle, accurately predicting splits, wrinkles, thinning, and loose metal."
+  },
+  {
+    "icon": "/images/default/cimatron-logo-2025.svg",
+    "title": "Virtual Tryout Environments",
+    "desc": "Simulate multi-stage forming, trimming, flanging, and springback processes to massively reduce the need for physical prototypes."
+  },
+  {
+    "icon": "/images/default/cimatron-logo-2025.svg",
+    "title": "Automated Blank Nesting",
+    "desc": "Propose intelligent, highly efficient layouts of flattened blanks on sheet coils to maximize material utilization and minimize scrap costs."
+  },
+  {
+    "icon": "/images/default/cimatron-logo-2025.svg",
+    "title": "Accelerated Decision Feedback",
+    "desc": "Provide engineers with instant physics-based feedback that empowers lightning-fast design alterations and accurate Request For Quote (RFQ) estimates."
+  }
+];
+
+const GridFeatures = [
+  {
+    "img": "/images/products/altair-form-feature.png",
+    "title": "Intelligent Coil Optimization",
+    "desc": "Maximize your stamping plant's raw material savings by taking full advantage of the advanced blank nesting layout routines. Seamlessly map complex geometries across coil space to calculate precise yields without trial and error."
+  },
+  {
+    "img": "/images/3/images/cimatron-die-01.jpg",
+    "title": "Rapid Geometry Preparation",
+    "desc": "Automatically extract midsurfaces, seamlessly fill holes and cutouts, and completely remove flanges from source CAD files using powerful built-in topology simplifications designed specifically for sheet metal."
+  }
+];
 const Capabilities = [];
 
 const AltairInspireForm = () => {
@@ -10,21 +43,21 @@ const AltairInspireForm = () => {
     <main className="pt-24 lg:pt-32 pb-0 bg-[#f9fafb]">
       <section className="relative bg-[#eceff3] pt-24 pb-20 lg:pt-32 lg:pb-32 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/images/default/cimatron-logo-2025.svg" alt="Background" className="w-full h-full object-cover opacity-[0.25] object-center" />
+          <img src="/images/products/altair-form-hero.png" alt="Background" className="w-full h-full object-cover opacity-[0.25] object-center" />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/70 via-slate-800/40 to-transparent"></div>
         </div>
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-16">
           <div className="w-full lg:w-[55%]">
-            <Reveal><h1 className="font-heading text-4xl font-extrabold leading-tight text-white drop-shadow-lg sm:text-5xl lg:text-6xl tracking-tight">Inspire form</h1></Reveal>
+            <Reveal><h1 className="font-heading text-4xl font-extrabold leading-tight text-white drop-shadow-lg sm:text-5xl lg:text-6xl tracking-tight">Altair Inspire Form</h1></Reveal>
             <Reveal delay={100}><div className="w-20 h-1.5 bg-brand-orange mt-6 rounded-full shadow-sm"></div></Reveal>
-            <Reveal delay={200}><h2 className="mt-8 text-2xl font-bold text-white drop-shadow-md lg:text-3xl">Inspire form</h2></Reveal>
-            <Reveal delay={300}><p className="mt-5 text-lg text-zinc-100 drop-shadow max-w-2xl font-medium leading-relaxed">Advanced engineering capabilities.</p></Reveal>
+            <Reveal delay={200}><h2 className="mt-8 text-2xl font-bold text-white drop-shadow-md lg:text-3xl">Optimize Sheet Metal Forming Design</h2></Reveal>
+            <Reveal delay={300}><p className="mt-5 text-lg text-zinc-100 drop-shadow max-w-2xl font-medium leading-relaxed">Simulate complex manufacturing processes, optimize part formability, and reduce material losses with a comprehensive sheet metal forming simulation environment.</p></Reveal>
             <Reveal delay={400}><div className="mt-10 flex flex-wrap gap-5"><a href="/#contact" className="btn-primary shadow-[0_8px_20px_rgb(242,106,33,0.3)] hover:shadow-[0_12px_25px_rgb(242,106,33,0.4)] text-base px-8 py-4">Request a Free Consultation</a></div></Reveal>
           </div>
           <div className="hidden lg:block w-full lg:w-[45%]">
             <Reveal delay={500} className="transform translate-x-4">
               <div className="rounded-2xl overflow-hidden shadow-[0_30px_60px_rgb(0,0,0,0.2)] border-[8px] border-white/90 bg-white">
-                <img src="/images/default/cimatron-logo-2025.svg" alt="Interface" className="w-full h-auto aspect-[4/3] object-cover" />
+                <img src="/images/products/altair-form-hero.png" alt="Interface" className="w-full h-auto aspect-[4/3] object-cover" />
               </div>
             </Reveal>
           </div>
