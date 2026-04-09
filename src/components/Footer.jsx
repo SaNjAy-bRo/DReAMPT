@@ -23,7 +23,7 @@ const Footer = () => {
             <h3 className="footer-title">Quick Links</h3>
             <div className="footer-links">
               <a href="/#home">Home</a>
-              <a href="/#about">About</a>
+              <Link to="/about">About</Link>
               <a href="/#products">Products</a>
               <a href="/#services">Services</a>
               <a href="/#resources">Resources</a>
@@ -57,8 +57,8 @@ const Footer = () => {
           <div id="resources">
             <h3 className="footer-title">Contact</h3>
             <div className="footer-links">
-              <a href="mailto:info@dreampt.example">info@dreampt.example</a>
-              <a href="tel:+910000000000">+91 00000 00000</a>
+              <a href="mailto:info@dreampt.in">info@dreampt.in</a>
+              <a href="tel:+918000000000">+91 80000 00000</a>
               <p>No. 1, 3rd Main, 2nd Stage, Yeshwantapura Industrial Suburb, Goraguntepalya, J.B. Kaval, Bengaluru – 560022, Karnataka, India</p>
               <a href="/#contact">Request a Free Consultation</a>
             </div>

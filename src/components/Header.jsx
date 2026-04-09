@@ -84,7 +84,7 @@ const Header = () => {
 
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary navigation">
             <a className="nav-link" href="/#home">Home</a>
-            <a className="nav-link" href="/#about">About</a>
+            <Link className="nav-link" to="/about">About</Link>
 
             <div 
               className={`nav-dropdown group relative ${openDropdown === 'products' ? 'open' : ''}`} 
@@ -127,11 +127,11 @@ const Header = () => {
               </div>
             </div>
 
-            <a className="nav-link" href="/#contact">Contact</a>
+            <Link className="nav-link" to="/contact">Contact</Link>
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <a href="/#contact" className="btn-primary">Request a Free Consultation</a>
+            <Link to="/contact" className="btn-primary">Request a Free Consultation</Link>
           </div>
 
           <div className="flex items-center gap-3 lg:hidden">
@@ -151,7 +151,7 @@ const Header = () => {
         <div id="mobile-menu" className="mobile-menu border-b border-slate-200/80 bg-white p-5 shadow-soft lg:hidden" hidden={!isMobileMenuOpen}>
           <div className="space-y-2">
             <a className="mobile-link" href="/#home" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
-            <a className="mobile-link" href="/#about" onClick={() => setIsMobileMenuOpen(false)}>About</a>
+            <Link className="mobile-link" to="/about" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
 
             <details className="mobile-accordion">
               <summary>Products <span className="dropdown-arrow">+</span></summary>
@@ -180,11 +180,11 @@ const Header = () => {
               </div>
             </details>
 
-            <a className="mobile-link" href="/#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
+            <Link className="mobile-link" to="/contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
           </div>
 
           <div className="mt-5">
-            <a href="/#contact" className="btn-primary w-full justify-center text-center" onClick={() => setIsMobileMenuOpen(false)}>Request a Free Consultation</a>
+            <Link to="/contact" className="btn-primary w-full justify-center text-center" onClick={() => setIsMobileMenuOpen(false)}>Request a Free Consultation</Link>
           </div>
         </div>
       </div>

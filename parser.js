@@ -5,6 +5,7 @@ const srcDir = path.join(__dirname, 'ref', 'www.cimatron.com', 'en');
 const outDir = path.join(__dirname, 'src', 'pages');
 
 const mapping = [
+    { file: 'cimatron-mold.html', comp: 'MoldDesign' },
     { file: 'cimatron-die.html', comp: 'DieDesign' },
     { file: 'cimatron-electrodes.html', comp: 'ElectrodesDesign' },
     { file: 'cimatron-nc-programming.html', comp: 'NCProgramming' },
@@ -40,12 +41,17 @@ for (let item of mapping) {
     
     // Attempt to find Subtitle and Description typically after first H1 and H2
     let subtitleMatch = html.match(/<h2>(.*?)<\/h2>\s*<p>(.*?)<\/p>/s);
-    let subtitle = subtitleMatch ? subtitleMatch[1] : h1;
+    let subtitle = subtitleMatch ? subtitleMatch[1].replace(/<[^>]+>/g, '') : h1;
     let description = subtitleMatch ? subtitleMatch[2].replace(/<[^>]+>/g, '') : "Advanced engineering capabilities.";
 
-    // Determine the hero image (video poster or first image)
-    let heroImgMatch = html.match(/poster="([^"]+)"/) || html.match(/<img[^>]+src="([^"]+)"/);
-    let heroImg = heroImgMatch ? heroImgMatch[1].replace('../', '/').replace('collateral/', 'images/') : '/images/products/mold-design.jpg';
+    // Determine the hero image (prioritize product-home or hero specific images)
+    const productKey = item.comp.toLowerCase().replace('design', '').replace('programming', 'nc').replace('cimatron', '').replace('altair', '').replace('inspire', '').trim();
+    let heroImgMatch = html.match(new RegExp(`src="([^"]+${productKey}[^"]*product-home\\.jpg)"`, 'i')) || 
+                       html.match(/poster="([^"]+)"/) || 
+                       html.match(/<img[^>]+src="([^"]+(?:hero\.jpg|\.jpg|\.png))"[^>]*>/);
+    
+    let heroImg = heroImgMatch ? heroImgMatch[1].replace('../', '/').replace('collateral/', 'images/').replace('images/images/', 'images/') : `/images/products/${item.comp.toLowerCase()}.jpg`;
+    if (!heroImg.startsWith('/')) heroImg = '/' + heroImg;
 
     // 2. Extract Key Benefits
     // Looking for <div class="grid-card">
@@ -244,7 +250,8 @@ const ${item.comp} = () => {
 export default ${item.comp};
 `;
 
-    const outPath = path.join(outDir, \`\${item.comp}.jsx\`);
+    const outPath = path.join(outDir, `${item.comp}.jsx`);
     fs.writeFileSync(outPath, jsxTemplate);
-    console.log(\`Generated \${item.comp}.jsx\`);
+    console.log(`Generated ${item.comp}.jsx`);
 }
+
