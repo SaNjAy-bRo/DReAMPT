@@ -9,8 +9,8 @@ const AboutSnapshot = () => {
           <p className="section-kicker">About DReAMPT Mecha System Pvt. Ltd.</p>
           <h2 className="section-title">A Unified Approach to Product Development &amp; Engineering</h2>
           <p className="section-copy">
-            DReAMPT Mecha System Pvt. Ltd. offers comprehensive engineering support from concept to final
-            implementation, with expertise in design, analysis, manufacturing, automation, and testing.
+            DReAMPT: Design, Rapid Prototyping, Engineering, Analysis, Manufacturing, Prototype, and Testing. 
+            We offer comprehensive engineering support from concept to final implementation, delivering precision across every stage.
           </p>
         </Reveal>
 

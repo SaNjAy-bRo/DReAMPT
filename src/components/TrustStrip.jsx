@@ -47,25 +47,48 @@ const Counter = ({ endValue, suffix = '' }) => {
 
 const TrustStrip = () => {
   return (
-    <section className="relative z-10 mt-8">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <Reveal className="trust-strip grid gap-4 rounded-[28px] border border-brand-line/80 bg-white/95 p-6 shadow-soft md:grid-cols-2 xl:grid-cols-4">
-          <article className="trust-stat">
-            <p className="trust-value"><Counter endValue={105} suffix="+" /></p>
-            <p className="trust-label">Years of Combined Engineering Experience</p>
-          </article>
-          <article className="trust-stat">
-            <p className="trust-value">100%</p>
-            <p className="trust-label">Indian MSME</p>
-          </article>
-          <article className="trust-stat">
-            <p className="trust-value">End-to-End</p>
-            <p className="trust-label">Engineering Solutions</p>
-          </article>
-          <article className="trust-stat">
-            <p className="trust-value">Strategic</p>
-            <p className="trust-label">Industry Partnerships</p>
-          </article>
+    <section className="relative z-10 -mt-10 mb-16 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl">
+        <Reveal className="stats-ref-container overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 shadow-xl md:p-12">
+          <div className="grid grid-cols-1 divide-y divide-slate-100 sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-4">
+            
+            <article className="stats-ref-item px-6 py-8 sm:py-4 flex flex-col items-center text-center">
+              <p className="stats-ref-value text-5xl font-extrabold tracking-tight text-slate-900 leading-none mb-4 md:text-6xl">
+                <Counter endValue={105} suffix="+" />
+              </p>
+              <p className="stats-ref-label text-sm font-semibold uppercase tracking-wider text-slate-500 max-w-[180px]">
+                Years of Collective Engineering Experience
+              </p>
+            </article>
+
+            <article className="stats-ref-item px-6 py-8 sm:py-4 flex flex-col items-center text-center">
+              <p className="stats-ref-value text-5xl font-extrabold tracking-tight text-slate-900 leading-none mb-4 md:text-6xl">
+                100%
+              </p>
+              <p className="stats-ref-label text-sm font-semibold uppercase tracking-wider text-slate-500 max-w-[180px]">
+                Indian MSME (Native Support)
+              </p>
+            </article>
+
+            <article className="stats-ref-item px-6 py-8 sm:py-4 flex flex-col items-center text-center">
+              <p className="stats-ref-value text-5xl font-extrabold tracking-tight text-slate-900 leading-none mb-4 md:text-6xl">
+                360°
+              </p>
+              <p className="stats-ref-label text-sm font-semibold uppercase tracking-wider text-slate-500 max-w-[180px]">
+                Concept to Realization Engineering Solutions
+              </p>
+            </article>
+
+            <article className="stats-ref-item px-6 py-8 sm:py-4 flex flex-col items-center text-center border-b-0">
+              <p className="stats-ref-value text-5xl font-extrabold tracking-tight text-slate-900 leading-none mb-4 md:text-6xl">
+                ∞
+              </p>
+              <p className="stats-ref-label text-sm font-semibold uppercase tracking-wider text-slate-500 max-w-[180px]">
+                Strategic Industry Partnerships & Global Support
+              </p>
+            </article>
+
+          </div>
         </Reveal>
       </div>
     </section>

@@ -24,7 +24,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300 sm:text-xl">
-            We brings together 105+ years of collective engineering experience to deliver end-to-end
+            We bring together 105+ years of collective engineering experience to deliver end-to-end
             solutions from concept to realization.
           </p>
 
