@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Reveal from './Reveal';
 
 const ServicesOverview = () => {
@@ -38,7 +39,7 @@ const ServicesOverview = () => {
         </Reveal>
 
         <Reveal className="mt-8">
-          <a href="#services" className="text-link">Learn More</a>
+          <Link to="/services" className="text-link">Learn More</Link>
         </Reveal>
       </div>
     </section>

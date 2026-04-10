@@ -25,7 +25,7 @@ const Footer = () => {
               <a href="/#home">Home</a>
               <Link to="/about">About</Link>
               <a href="/#products">Products</a>
-              <a href="/#services">Services</a>
+              <Link to="/services">Services</Link>
               <a href="/#resources">Resources</a>
             </div>
           </div>
@@ -46,11 +46,11 @@ const Footer = () => {
           <div>
             <h3 className="footer-title">Services</h3>
             <div className="footer-links">
-              <a href="/#services">Design Engineering</a>
-              <a href="/#services">Design Validation</a>
-              <a href="/#services">Manufacturing</a>
-              <a href="/#services">Automation</a>
-              <a href="/#services">Testing</a>
+              <Link to="/services">Design Engineering</Link>
+              <Link to="/services">Design Validation</Link>
+              <Link to="/services">Manufacturing</Link>
+              <Link to="/services">Automation</Link>
+              <Link to="/services">Testing</Link>
             </div>
           </div>
 

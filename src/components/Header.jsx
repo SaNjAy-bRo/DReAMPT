@@ -109,7 +109,7 @@ const Header = () => {
               </div>
             </div>
 
-            <a className="nav-link" href="/#services">Services</a>
+            <Link className="nav-link" to="/services">Services</Link>
 
             <div 
               className={`nav-dropdown group relative ${openDropdown === 'resources' ? 'open' : ''}`} 
@@ -169,7 +169,7 @@ const Header = () => {
               </div>
             </details>
 
-            <a className="mobile-link" href="/#services" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
+            <Link className="mobile-link" to="/services" onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
 
             <details className="mobile-accordion">
               <summary>Resources <span className="dropdown-arrow">+</span></summary>
