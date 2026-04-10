@@ -16,6 +16,7 @@ import CimatronCADAI from './pages/CimatronCADAI';
 import CimatronDieQuote from './pages/CimatronDieQuote';
 import AltairInspireMold from './pages/AltairInspireMold';
 import AltairInspireForm from './pages/AltairInspireForm';
+import CaseStudies from './pages/CaseStudies';
 import './index.css';
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/products/mold-design" element={<MoldDesign />} />
         <Route path="/products/die-design" element={<DieDesign />} />
