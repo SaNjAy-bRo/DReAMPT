@@ -56,7 +56,7 @@ const Services = () => {
       title: "Workforce & Commissioning",
       subtitle: "Professional Engineering Services",
       description: "We provide workforce provision services for high-demand engineering projects and handle integrated commissioning to ensure systems are site-ready.",
-      image: "/images/factory-hero.png",
+      image: "/images/hero-bg.png",
       capabilities: ["Engineering Manpower", "On-site Integration", "System Commissioning", "Technical Training"]
     }
   ];

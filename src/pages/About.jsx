@@ -219,7 +219,7 @@ const About = () => {
       {/* ── Domain Experience ──────────────────────────────────────── */}
       <section className="py-24 bg-[#1a2d3e] relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <img src="/images/factory-hero.png" alt="" className="w-full h-full object-cover grayscale" />
+          <img src="/images/hero-bg.png" alt="" className="w-full h-full object-cover grayscale" />
         </div>
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Reveal>

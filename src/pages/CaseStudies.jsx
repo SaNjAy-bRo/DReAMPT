@@ -33,7 +33,7 @@ const CaseStudies = () => {
         "Repeatable volume production established",
         "Budget constraints met comfortably"
       ],
-      image: "/images/3/images/cimatron-die-09.jpg"
+      image: "/images/case_study_enclosure.png"
     },
     {
       id: 10,
@@ -62,7 +62,7 @@ const CaseStudies = () => {
         "Scalable modular software ready",
         "Successful hardware interfacing"
       ],
-      image: "/images/factory-hero.png"
+      image: "/images/services/robotics.png"
     }
   ];
 
@@ -70,7 +70,7 @@ const CaseStudies = () => {
     <main className="case-studies-page pt-20 bg-[#f8fafc]">
       {/* Hero Section */}
       <section className="relative py-24 bg-[#1a2d3e] text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0 opacity-10">
           <img src="/images/hero-bg.png" alt="" className="w-full h-full object-cover" />
         </div>
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
