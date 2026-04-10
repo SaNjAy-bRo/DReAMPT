@@ -69,7 +69,7 @@ const About = () => {
               <Reveal delay={200}>
                 <div className="relative p-1 rounded-3xl bg-gradient-to-tr from-brand-orange/20 to-transparent">
                   <div className="relative rounded-2xl overflow-hidden bg-slate-50 border border-slate-200 aspect-video flex items-center justify-center">
-                    <img src="/images/DReAMPT_darklogo.png" alt="Company Logo" className="w-2/3 opacity-90" />
+                    <img src="/images/DReAMPT_darklogo.png" alt="Company Logo" className="w-full max-w-[400px] h-auto p-8" />
                   </div>
                 </div>
               </Reveal>
@@ -276,9 +276,9 @@ const LeaderProfile = ({ name, role, image, bio, details, reverse }) => (
   <Reveal>
     <div className={`flex flex-col lg:flex-row gap-12 lg:gap-20 items-center ${reverse ? 'lg:flex-row-reverse' : ''}`}>
       <div className="w-full lg:w-1/3 shrink-0">
-        <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
-          <img src={image} alt={name} className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent hidden lg:block" />
+        <div className="relative aspect-[4/5] sm:aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-50">
+          <img src={image} alt={name} className="w-full h-full object-contain" />
+          <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/40 to-transparent hidden lg:block" />
           <div className="absolute bottom-6 left-6 right-6 hidden lg:block">
             <h3 className="text-2xl font-bold text-white">{name}</h3>
             <p className="text-brand-orange font-semibold">{role}</p>
