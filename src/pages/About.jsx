@@ -216,37 +216,55 @@ const About = () => {
         </div>
       </section>
 
-      {/* ── Team Expertise Summary ────────────────────────────────── */}
+      {/* ── Domain Experience ──────────────────────────────────────── */}
       <section className="py-24 bg-[#1a2d3e] relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img src="/images/factory-hero.png" alt="" className="w-full h-full object-cover grayscale" />
         </div>
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <Reveal>
-              <h2 className="text-3xl lg:text-4xl font-extrabold text-white leading-tight">
-                Throughout their extensive careers, our team of experts has contributed to projects spanning various critical areas.
-              </h2>
-            </Reveal>
-            <Reveal delay={200}>
-              <div className="grid grid-cols-2 gap-y-4 text-slate-300 font-medium">
-                {[
-                  'Mechanical Engineering',
-                  'Electrical & Electronics',
-                  'Civil Engineering',
-                  'Production Management',
-                  'Total Quality Management',
-                  'Supply Chain Management',
-                  'Logistics & Marketing',
-                  'Integration & Commissioning'
-                ].map((item, i) => (
-                  <div key={i} className="flex items-center gap-2">
-                    <div className="w-1 h-1 rounded-full bg-brand-orange" />
-                    {item}
-                  </div>
-                ))}
-              </div>
-            </Reveal>
+          <Reveal>
+            <div className="text-center mb-16">
+              <p className="section-kicker text-brand-orange/80">Our Footprint</p>
+              <h2 className="section-title text-white">Domain Experience</h2>
+              <p className="mt-4 text-slate-300 max-w-2xl mx-auto font-medium">
+                Our team delivers specialized engineering across critical global industries, handling everything from aero-structure justification to high-speed communication systems.
+              </p>
+            </div>
+          </Reveal>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                title: "Aerospace & Defence",
+                items: ["Aero-structure Justification", "Bridges & Naval Ships", "Missile Launchers", "Tank & Armored Vehicles"]
+              },
+              {
+                title: "Automotive",
+                items: ["Chassis & Powertrain", "Door Panels & Dashboard", "Trucks & Commercial", "2 & 3 Wheeler Systems"]
+              },
+              {
+                title: "General Engineering",
+                items: ["Industrial Robotics", "Jet Engine Components", "Conveyor Systems", "Snowmobiles & Off-road"]
+              },
+              {
+                title: "Communication",
+                items: ["Satellite Tracking Dishes", "Ergonomic Consoles", "Real-time Control Systems", "Network Infrastructure"]
+              }
+            ].map((domain, i) => (
+              <Reveal key={i} delay={i * 100}>
+                <div className="bg-white/5 backdrop-blur-sm p-8 rounded-3xl border border-white/10 hover:border-brand-orange/40 transition-all group h-full">
+                  <h3 className="text-xl font-extrabold text-brand-orange mb-6 group-hover:translate-x-1 transition-transform">{domain.title}</h3>
+                  <ul className="space-y-3">
+                    {domain.items.map((item, idx) => (
+                      <li key={idx} className="text-slate-300 text-sm font-bold flex items-center gap-2">
+                        <div className="w-1 h-1 rounded-full bg-slate-500" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>

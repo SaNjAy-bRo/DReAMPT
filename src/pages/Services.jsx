@@ -8,14 +8,14 @@ const Services = () => {
       subtitle: "Geometry Creation / Modelling",
       description: "Transforming abstract ideas into precise digital reality. We specialize in complex geometry creation, 3D modeling, and surface engineering to build a solid foundation for your product lifecycle.",
       image: "/images/services/concept-design.png",
-      capabilities: ["3D CAD Modelling", "Surface Design", "Reverse Engineering", "Product Visualization"]
+      capabilities: ["3D CAD Modelling", "Electronic Enclosures", "Surface Design", "Reverse Engineering", "Product Visualization"]
     },
     {
       title: "Design Validation",
       subtitle: "Finite Element Analysis (FEA) & CFD",
       description: "Rigorous testing within digital environments. We use advanced FEA for structural integrity and CFD for fluid dynamics to ensure your designs perform flawlessly under real-world conditions.",
       image: "/images/services/fea-cfd.png",
-      capabilities: ["Stress & Strain Analysis", "Flow Simulation", "Thermal Analysis", "Vibration Testing"]
+      capabilities: ["Stress & Strain Analysis", "Bird Impact Simulation", "Drop Test Analysis", "Aero-structure Justification", "Vibration Testing"]
     },
     {
       title: "Layout & Manufacturing Drawings",
@@ -29,7 +29,7 @@ const Services = () => {
       subtitle: "Prototypes & Mass Production",
       description: "Turning designs into physical excellence. Our manufacturing support covers everything from rapid prototyping for validation to high-volume mass production strategies.",
       image: "/images/products/altair-mold-feature.png",
-      capabilities: ["CNC Programming", "Tooling Design", "Process Optimization", "Quality Control"]
+      capabilities: ["CNC Programming", "Ergonomic Consoles", "Industrial Monitors", "Control Panels", "Quality Control"]
     },
     {
       title: "Research & Development",
