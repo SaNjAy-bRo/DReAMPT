@@ -13,7 +13,7 @@ const HeroSection = () => {
                 alt="Cimatron logo"
                 className="h-8 w-auto sm:h-9"
               />
-              <p className="hero-reseller-text">Authorised Reseller Cimatron</p>
+              <p className="hero-reseller-text">Authorised Reseller</p>
             </div>
 
             <p className="hero-eyebrow">A Unified Approach to Product Development &amp; Engineering</p>

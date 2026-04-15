@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <img src="/images/DReAMPT_lightlogo.png" alt="DReAMPT Mecha System Pvt. Ltd. logo" className="h-14 w-auto" />
             <p className="mt-5 max-w-sm text-sm leading-7 text-slate-300">
-              DReAMPT Mecha System Pvt. Ltd. is an Authorised Reseller Cimatron, delivering engineering and
+              DReAMPT Mecha System Pvt. Ltd. is an Authorised Reseller, delivering engineering and
               industrial technology support with a structured, practical approach.
             </p>
             <div className="mt-6 flex items-center gap-3">
