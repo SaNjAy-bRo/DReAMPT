@@ -202,7 +202,7 @@ const About = () => {
             <LeaderProfile 
               name="HARSHA KORLUR"
               role="Managing Director"
-              image="/images/about/harsha korlur.jpg"
+              image="/images/about/harsha-korlur.jpeg"
               bio={`Mr. Harsha Korlur has sound knowledge of Electro-Mechanical Product Design & Development process. Since 2020, his focus has been "Building the Systems from Concepts to Commissioning" for reputed organizations like BEL, ISRO, DRDO, and GTRE.`}
               details={[
                 'M-Tech from BMSCE (2004) and B.E in Mechanical Engineering (2001).',

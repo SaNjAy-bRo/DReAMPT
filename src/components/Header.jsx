@@ -53,7 +53,7 @@ const Header = () => {
           <div className="flex items-center gap-3">
             <img src="/images/Cimatron_Portrait_logo_black.png" alt="Cimatron logo" className="h-7 w-auto" />
             <p className="truncate text-xs font-semibold uppercase tracking-[0.2em] text-slate-700">
-              Authorised Reseller
+              Authorised Reseller - ISO 9001:2015
             </p>
           </div>
           <div className="flex items-center gap-2">
