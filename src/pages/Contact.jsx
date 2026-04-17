@@ -9,7 +9,7 @@ const ContactInfo = [
       </svg>
     ),
     label: 'Visit Us',
-    value: 'Pune, Maharashtra, India',
+    value: 'Bangalore, Karnataka, India',
     sub: 'Headquarters',
   },
   {
